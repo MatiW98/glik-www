@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glik: indeks i ładunek glikemiczny</title>
+<meta name="description" content="Glik sprawdza indeks i ładunek glikemiczny produktów dla wybranej porcji. Po polsku, offline, bez konta.">
+<style>
+  :root{
+    --bg:#f2f2f7; --card:#fff; --fg:#1c1c1e; --fg2:#5b5b60;
+    --sep:#e3e3e8; --accent:#007aff;
+    --low:#34c759; --mid:#ff9500; --high:#ff3b30;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#000; --card:#1c1c1e; --fg:#fff; --fg2:#98989f;
+           --sep:#2c2c2e; --accent:#0a84ff;
+           --low:#30d158; --mid:#ff9f0a; --high:#ff453a; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:44px 20px 72px;
+    font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg); color:var(--fg);
+  }
+  main{max-width:680px;margin:0 auto}
+  h1{font-size:36px;line-height:1.15;letter-spacing:-.025em;margin:0 0 10px}
+  .tag{font-size:18px;color:var(--fg2);margin:0 0 30px}
+  h2{font-size:19px;margin:34px 0 10px;letter-spacing:-.01em}
+  p,li{color:var(--fg2)}
+  p{margin:0 0 12px}
+  ul{margin:0 0 12px;padding-left:22px}
+  li{margin:0 0 7px}
+  strong{color:var(--fg);font-weight:600}
+  a{color:var(--accent)}
+  .card{background:var(--card);border-radius:16px;padding:20px 22px;margin:22px 0}
+  .card p:last-child,.card ul:last-child{margin-bottom:0}
+  .legend{display:flex;gap:18px;flex-wrap:wrap;margin:0}
+  .legend div{display:flex;align-items:center;gap:8px;font-size:15px}
+  .dot{width:14px;height:14px;flex:none}
+  .c{border-radius:50%;background:var(--low)}
+  .d{transform:rotate(45deg);background:var(--mid)}
+  .t{width:0;height:0;background:none;border-left:8px solid transparent;
+     border-right:8px solid transparent;border-bottom:14px solid var(--high)}
+  .warn{border:1.5px solid var(--mid)}
+  footer{
+    margin-top:46px;padding-top:20px;border-top:1px solid var(--sep);
+    color:var(--fg2);font-size:14px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Glik</h1>
+  <p class="tag">Sprawdź indeks i ładunek glikemiczny produktu dla swojej
+  porcji. Po polsku, offline, bez konta.</p>
+
+  <div class="card">
+    <div class="legend">
+      <div><span class="dot c"></span> Niski</div>
+      <div><span class="dot d"></span> Średni</div>
+      <div><span class="dot t"></span> Wysoki</div>
+    </div>
+  </div>
+
+  <h2>Co robi</h2>
+  <ul>
+    <li>Pokazuje <strong>indeks glikemiczny (IG)</strong> produktu i
+    <strong>ładunek glikemiczny (ŁG)</strong> przeliczony na wybraną porcję.</li>
+    <li>Skanuje kody kreskowe produktów pakowanych.</li>
+    <li>Sumuje ładunek glikemiczny całego posiłku.</li>
+    <li>Podpowiada lepsze zamienniki o niższym indeksie.</li>
+    <li>Działa bez internetu. Możesz pobrać bazę produktów na zapas.</li>
+    <li>Poziom pokazuje kolorem, kształtem i słowem naraz, więc czyta się go
+    także przy zaburzeniach widzenia barw.</li>
+  </ul>
+
+  <h2>Skąd biorą się liczby</h2>
+  <p>Wartości oznaczone jako <strong>Zmierzone</strong> pochodzą z
+  opublikowanych tablic indeksu glikemicznego, opartych na badaniach z udziałem
+  ludzi.</p>
+  <p>Produkty pakowane prawie nigdy nie mają zmierzonego IG. Dla nich liczymy
+  przybliżenie ze składu, oznaczone jako <strong>Szacowane</strong>: punktem
+  wyjścia jest wartość środkowa 58, rośnie ona wraz z udziałem cukrów prostych
+  w węglowodanach, a maleje wraz z zawartością błonnika. Takie przybliżenie nie
+  uwzględnia stopnia przetworzenia, tłuszczu, białka ani sposobu przygotowania,
+  więc rzeczywisty IG może się różnić. Aplikacja zawsze pokazuje, która wartość
+  jest pomiarem, a która szacunkiem.</p>
+  <p>Dane produktów pakowanych pochodzą z
+  <a href="https://world.openfoodfacts.org" rel="noopener">Open Food Facts</a>
+  (licencja ODbL).</p>
+
+  <div class="card warn">
+    <p><strong>Glik to narzędzie edukacyjne, nie wyrób medyczny.</strong> Nie
+    służy do diagnozowania, leczenia ani monitorowania choroby i nie zastępuje
+    porady lekarza, diabetologa lub dietetyka. Zanim zmienisz sposób odżywiania
+    albo dawkowanie leków, skonsultuj się z lekarzem.</p>
+  </div>
+
+  <h2>Prywatność</h2>
+  <p>Bez kont, bez reklam, bez analityki, bez śledzenia. Wszystko zostaje na
+  Twoim telefonie. Szczegóły w
+  <a href="./prywatnosc.html">polityce prywatności</a>.</p>
+
+  <h2>Pomoc i kontakt</h2>
+  <p>Znalazłeś błąd w danych produktu? W aplikacji możesz go poprawić
+  przyciskiem &bdquo;Edytuj&rdquo; na ekranie produktu.</p>
+  <p>W innych sprawach napisz na
+  <a href="mailto:mateuszwyszogrodzki@o2.pl">mateuszwyszogrodzki@o2.pl</a>.
+  Odpowiadam zwykle w ciągu kilku dni.</p>
+
+  <footer>
+    <p>Glik &middot; <a href="./prywatnosc.html">Polityka prywatności</a><br>
+    Dane produktów: Open Food Facts, licencja ODbL.</p>
+  </footer>
+</main>
+</body>
+</html>
