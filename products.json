@@ -1,0 +1,2811 @@
+{
+  "version": 7,
+  "products": [
+    {
+      "id": "o_jablko",
+      "nazwa": "Jabłko",
+      "kategoria": "Owoce",
+      "weglowodany_100g": 14,
+      "blonnik_100g": 2.4,
+      "cukry_100g": 10,
+      "ig": 38,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 sztuka",
+          "gramy": 150
+        },
+        {
+          "etykieta": "1 plaster",
+          "gramy": 25
+        }
+      ]
+    },
+    {
+      "id": "o_banan",
+      "nazwa": "Banan",
+      "kategoria": "Owoce",
+      "weglowodany_100g": 23,
+      "blonnik_100g": 2.6,
+      "cukry_100g": 12,
+      "ig": 62,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 sztuka",
+          "gramy": 120
+        },
+        {
+          "etykieta": "1 plaster",
+          "gramy": 20
+        }
+      ]
+    },
+    {
+      "id": "o_arbuz",
+      "nazwa": "Arbuz",
+      "kategoria": "Owoce",
+      "weglowodany_100g": 8,
+      "blonnik_100g": 0.4,
+      "cukry_100g": 6,
+      "ig": 72,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 plaster",
+          "gramy": 280
+        }
+      ]
+    },
+    {
+      "id": "o_truskawki",
+      "nazwa": "Truskawki",
+      "kategoria": "Owoce",
+      "weglowodany_100g": 8,
+      "blonnik_100g": 2,
+      "cukry_100g": 5,
+      "ig": 40,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 0,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "o_gruszka",
+      "nazwa": "Gruszka",
+      "kategoria": "Owoce",
+      "weglowodany_100g": 15,
+      "blonnik_100g": 3.1,
+      "cukry_100g": 10,
+      "ig": 38,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 sztuka",
+          "gramy": 170
+        }
+      ]
+    },
+    {
+      "id": "o_winogrona",
+      "nazwa": "Winogrona",
+      "kategoria": "Owoce",
+      "weglowodany_100g": 17,
+      "blonnik_100g": 0.9,
+      "cukry_100g": 16,
+      "ig": 59,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 garść",
+          "gramy": 80
+        }
+      ]
+    },
+    {
+      "id": "w_ziemniak",
+      "nazwa": "Ziemniak gotowany",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 17,
+      "blonnik_100g": 1.8,
+      "cukry_100g": 1,
+      "ig": 78,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 sztuka",
+          "gramy": 180
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 30
+        }
+      ],
+      "synonimy": [
+        "kartofle",
+        "pyry"
+      ]
+    },
+    {
+      "id": "w_batat",
+      "nazwa": "Batat",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 20,
+      "blonnik_100g": 3,
+      "cukry_100g": 4,
+      "ig": 54,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 sztuka",
+          "gramy": 130
+        }
+      ],
+      "synonimy": [
+        "słodki ziemniak",
+        "słodkie ziemniaki"
+      ]
+    },
+    {
+      "id": "w_marchew",
+      "nazwa": "Marchew gotowana",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 8,
+      "blonnik_100g": 3,
+      "cukry_100g": 5,
+      "ig": 47,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 0,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "w_brokul",
+      "nazwa": "Brokuł",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 7,
+      "blonnik_100g": 2.6,
+      "cukry_100g": 1.7,
+      "ig": 15,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 0,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 garść",
+          "gramy": 80
+        },
+        {
+          "etykieta": "1 talerz",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "w_dynia",
+      "nazwa": "Dynia",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 7,
+      "blonnik_100g": 0.5,
+      "cukry_100g": 3,
+      "ig": 75,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 0,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "b_pszenny",
+      "nazwa": "Chleb pszenny",
+      "kategoria": "Pieczywo",
+      "weglowodany_100g": 49,
+      "blonnik_100g": 2.7,
+      "cukry_100g": 5,
+      "ig": 75,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 kromka",
+          "gramy": 35
+        },
+        {
+          "etykieta": "2 kromki",
+          "gramy": 70
+        }
+      ]
+    },
+    {
+      "id": "b_zytni",
+      "nazwa": "Chleb żytni razowy",
+      "kategoria": "Pieczywo",
+      "weglowodany_100g": 45,
+      "blonnik_100g": 8,
+      "cukry_100g": 2,
+      "ig": 50,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 kromka",
+          "gramy": 40
+        }
+      ]
+    },
+    {
+      "id": "b_bagietka",
+      "nazwa": "Bagietka",
+      "kategoria": "Pieczywo",
+      "weglowodany_100g": 55,
+      "blonnik_100g": 3,
+      "cukry_100g": 3,
+      "ig": 95,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 kawałek",
+          "gramy": 60
+        }
+      ]
+    },
+    {
+      "id": "b_orkiszowy",
+      "nazwa": "Chleb orkiszowy",
+      "kategoria": "Pieczywo",
+      "weglowodany_100g": 48,
+      "blonnik_100g": 6,
+      "cukry_100g": 3,
+      "ig": 55,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 kromka",
+          "gramy": 40
+        }
+      ]
+    },
+    {
+      "id": "k_ryzbialy",
+      "nazwa": "Ryż biały",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 28,
+      "blonnik_100g": 0.4,
+      "cukry_100g": 0.1,
+      "ig": 73,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 200
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 18
+        }
+      ]
+    },
+    {
+      "id": "k_ryzbrazowy",
+      "nazwa": "Ryż brązowy",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 23,
+      "blonnik_100g": 1.8,
+      "cukry_100g": 0.4,
+      "ig": 68,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 195
+        }
+      ]
+    },
+    {
+      "id": "k_gryczana",
+      "nazwa": "Kasza gryczana",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 20,
+      "blonnik_100g": 2.7,
+      "cukry_100g": 0,
+      "ig": 54,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 170
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 18
+        }
+      ]
+    },
+    {
+      "id": "k_jaglana",
+      "nazwa": "Kasza jaglana",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 24,
+      "blonnik_100g": 1.3,
+      "cukry_100g": 0.2,
+      "ig": 71,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 175
+        }
+      ]
+    },
+    {
+      "id": "k_owsiane",
+      "nazwa": "Płatki owsiane",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 60,
+      "blonnik_100g": 10,
+      "cukry_100g": 1,
+      "ig": 55,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 40
+        }
+      ]
+    },
+    {
+      "id": "n_mleko",
+      "nazwa": "Mleko 2%",
+      "kategoria": "Nabiał",
+      "weglowodany_100g": 5,
+      "blonnik_100g": 0,
+      "cukry_100g": 5,
+      "ig": 30,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 250
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 15
+        }
+      ]
+    },
+    {
+      "id": "n_jogurtnat",
+      "nazwa": "Jogurt naturalny",
+      "kategoria": "Nabiał",
+      "weglowodany_100g": 5,
+      "blonnik_100g": 0,
+      "cukry_100g": 5,
+      "ig": 36,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 opakow.",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "n_jogurtow",
+      "nazwa": "Jogurt owocowy",
+      "kategoria": "Nabiał",
+      "weglowodany_100g": 14,
+      "blonnik_100g": 0,
+      "cukry_100g": 13,
+      "ig": 48,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 opakow.",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "n_kefir",
+      "nazwa": "Kefir",
+      "kategoria": "Nabiał",
+      "weglowodany_100g": 4,
+      "blonnik_100g": 0,
+      "cukry_100g": 4,
+      "ig": 31,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 0,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 250
+        }
+      ]
+    },
+    {
+      "id": "s_mleczna",
+      "nazwa": "Czekolada mleczna",
+      "kategoria": "Słodycze",
+      "weglowodany_100g": 59,
+      "blonnik_100g": 3,
+      "cukry_100g": 52,
+      "ig": 43,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 rząd",
+          "gramy": 20
+        }
+      ]
+    },
+    {
+      "id": "s_gorzka",
+      "nazwa": "Czekolada gorzka 70%",
+      "kategoria": "Słodycze",
+      "weglowodany_100g": 46,
+      "blonnik_100g": 11,
+      "cukry_100g": 24,
+      "ig": 25,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 rząd",
+          "gramy": 20
+        }
+      ]
+    },
+    {
+      "id": "s_miod",
+      "nazwa": "Miód",
+      "kategoria": "Słodycze",
+      "weglowodany_100g": 82,
+      "blonnik_100g": 0,
+      "cukry_100g": 82,
+      "ig": 61,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 20
+        }
+      ]
+    },
+    {
+      "id": "s_cukier",
+      "nazwa": "Cukier biały",
+      "kategoria": "Słodycze",
+      "weglowodany_100g": 100,
+      "blonnik_100g": 0,
+      "cukry_100g": 100,
+      "ig": 70,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżeczka",
+          "gramy": 5
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 15
+        }
+      ]
+    },
+    {
+      "id": "d_sokpom",
+      "nazwa": "Sok pomarańczowy",
+      "kategoria": "Napoje",
+      "weglowodany_100g": 10,
+      "blonnik_100g": 0.2,
+      "cukry_100g": 8,
+      "ig": 50,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 250
+        }
+      ]
+    },
+    {
+      "id": "d_cola",
+      "nazwa": "Cola",
+      "kategoria": "Napoje",
+      "weglowodany_100g": 11,
+      "blonnik_100g": 0,
+      "cukry_100g": 11,
+      "ig": 63,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 250
+        },
+        {
+          "etykieta": "1 puszka",
+          "gramy": 330
+        }
+      ]
+    },
+    {
+      "id": "d_sokjablkowy",
+      "nazwa": "Sok jabłkowy",
+      "kategoria": "Napoje",
+      "weglowodany_100g": 11,
+      "blonnik_100g": 0.2,
+      "cukry_100g": 10,
+      "ig": 40,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 0,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 250
+        }
+      ]
+    },
+    {
+      "id": "d_ryzowy",
+      "nazwa": "Napój ryżowy",
+      "kategoria": "Napoje",
+      "weglowodany_100g": 10,
+      "blonnik_100g": 0.1,
+      "cukry_100g": 5,
+      "ig": 79,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 0,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 250
+        }
+      ]
+    },
+    {
+      "id": "o_pomarancza",
+      "nazwa": "Pomarańcza",
+      "kategoria": "Owoce",
+      "weglowodany_100g": 9.4,
+      "blonnik_100g": 2.4,
+      "cukry_100g": 9.2,
+      "ig": 43,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 mała sztuka",
+          "gramy": 120
+        },
+        {
+          "etykieta": "1 średnia sztuka",
+          "gramy": 160
+        },
+        {
+          "etykieta": "1 duża sztuka",
+          "gramy": 200
+        }
+      ]
+    },
+    {
+      "id": "o_kiwi",
+      "nazwa": "Kiwi",
+      "kategoria": "Owoce",
+      "weglowodany_100g": 11.7,
+      "blonnik_100g": 3.0,
+      "cukry_100g": 9.0,
+      "ig": 52,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 sztuka",
+          "gramy": 75
+        },
+        {
+          "etykieta": "2 sztuki",
+          "gramy": 150
+        },
+        {
+          "etykieta": "1 porcja (miska)",
+          "gramy": 180
+        }
+      ]
+    },
+    {
+      "id": "o_ananas",
+      "nazwa": "Ananas",
+      "kategoria": "Owoce",
+      "weglowodany_100g": 11.7,
+      "blonnik_100g": 1.4,
+      "cukry_100g": 9.9,
+      "ig": 59,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 plaster",
+          "gramy": 80
+        },
+        {
+          "etykieta": "1 porcja (miska kostek)",
+          "gramy": 165
+        },
+        {
+          "etykieta": "1/4 ananasa",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "o_grejpfrut",
+      "nazwa": "Grejpfrut",
+      "kategoria": "Owoce",
+      "weglowodany_100g": 9.1,
+      "blonnik_100g": 1.6,
+      "cukry_100g": 6.9,
+      "ig": 25,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "połowa grejpfruta",
+          "gramy": 120
+        },
+        {
+          "etykieta": "1 cała sztuka",
+          "gramy": 240
+        },
+        {
+          "etykieta": "1 porcja (miska)",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "o_mango",
+      "nazwa": "Mango",
+      "kategoria": "Owoce",
+      "weglowodany_100g": 15.0,
+      "blonnik_100g": 1.6,
+      "cukry_100g": 13.7,
+      "ig": 51,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja (garść kostek)",
+          "gramy": 80
+        },
+        {
+          "etykieta": "1/2 mango",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 całe mango",
+          "gramy": 200
+        }
+      ]
+    },
+    {
+      "id": "o_rodzynki",
+      "nazwa": "Rodzynki",
+      "kategoria": "Owoce",
+      "weglowodany_100g": 75.5,
+      "blonnik_100g": 3.7,
+      "cukry_100g": 59.2,
+      "ig": 64,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 15
+        },
+        {
+          "etykieta": "1 garść",
+          "gramy": 30
+        },
+        {
+          "etykieta": "1 saszetka",
+          "gramy": 40
+        }
+      ]
+    },
+    {
+      "id": "w_groszek",
+      "nazwa": "Groszek zielony gotowany",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 10.0,
+      "blonnik_100g": 5.5,
+      "cukry_100g": 6.0,
+      "ig": 48,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 30
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 80
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "w_kukurydza",
+      "nazwa": "Kukurydza słodka gotowana",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 19.0,
+      "blonnik_100g": 2.4,
+      "cukry_100g": 4.5,
+      "ig": 52,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 30
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 80
+        },
+        {
+          "etykieta": "1 kolba",
+          "gramy": 140
+        }
+      ]
+    },
+    {
+      "id": "w_buraki",
+      "nazwa": "Buraki gotowane",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 8.0,
+      "blonnik_100g": 2.0,
+      "cukry_100g": 8.0,
+      "ig": 64,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka (tarte)",
+          "gramy": 30
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 80
+        },
+        {
+          "etykieta": "1 burak",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "w_bob",
+      "nazwa": "Bób gotowany",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 14.0,
+      "blonnik_100g": 5.4,
+      "cukry_100g": 1.8,
+      "ig": 79,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 30
+        },
+        {
+          "etykieta": "1 garść",
+          "gramy": 60
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "w_pasternak",
+      "nazwa": "Pasternak gotowany",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 13.0,
+      "blonnik_100g": 3.8,
+      "cukry_100g": 4.8,
+      "ig": 52,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 30
+        },
+        {
+          "etykieta": "1 sztuka",
+          "gramy": 130
+        }
+      ]
+    },
+    {
+      "id": "b_chleb",
+      "nazwa": "Chleb pumpernikiel (razowy żytni)",
+      "kategoria": "Pieczywo",
+      "weglowodany_100g": 41.0,
+      "blonnik_100g": 7.0,
+      "cukry_100g": 1.5,
+      "ig": 46,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "cienka kromka",
+          "gramy": 25
+        },
+        {
+          "etykieta": "2 kromki",
+          "gramy": 50
+        },
+        {
+          "etykieta": "3 kromki (kanapki)",
+          "gramy": 75
+        }
+      ]
+    },
+    {
+      "id": "b_pieczywo",
+      "nazwa": "Pieczywo chrupkie żytnie",
+      "kategoria": "Pieczywo",
+      "weglowodany_100g": 60.0,
+      "blonnik_100g": 16.0,
+      "cukry_100g": 1.0,
+      "ig": 64,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 kromka",
+          "gramy": 10
+        },
+        {
+          "etykieta": "2 kromki",
+          "gramy": 20
+        },
+        {
+          "etykieta": "3 kromki",
+          "gramy": 30
+        }
+      ]
+    },
+    {
+      "id": "b_kajzerka",
+      "nazwa": "Kajzerka (bułka pszenna)",
+      "kategoria": "Pieczywo",
+      "weglowodany_100g": 51.0,
+      "blonnik_100g": 2.3,
+      "cukry_100g": 4.0,
+      "ig": 73,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 bułka",
+          "gramy": 50
+        },
+        {
+          "etykieta": "1 mała bułka",
+          "gramy": 35
+        },
+        {
+          "etykieta": "2 bułki",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "b_tortilla",
+      "nazwa": "Tortilla pszenna",
+      "kategoria": "Pieczywo",
+      "weglowodany_100g": 47.0,
+      "blonnik_100g": 3.0,
+      "cukry_100g": 2.7,
+      "ig": 30,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 mała tortilla",
+          "gramy": 40
+        },
+        {
+          "etykieta": "1 duża tortilla",
+          "gramy": 62
+        },
+        {
+          "etykieta": "2 tortille",
+          "gramy": 124
+        }
+      ]
+    },
+    {
+      "id": "k_kasza",
+      "nazwa": "Kasza jęczmienna perłowa (pęczak) gotowana",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 24.4,
+      "blonnik_100g": 3.8,
+      "cukry_100g": 0.3,
+      "ig": 35,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "łyżka ugotowanej",
+          "gramy": 30
+        },
+        {
+          "etykieta": "porcja (talerz)",
+          "gramy": 150
+        },
+        {
+          "etykieta": "woreczek ugotowany",
+          "gramy": 200
+        }
+      ]
+    },
+    {
+      "id": "k_komosa",
+      "nazwa": "Komosa ryżowa (quinoa) gotowana",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 18.5,
+      "blonnik_100g": 2.8,
+      "cukry_100g": 0.9,
+      "ig": 53,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "łyżka ugotowanej",
+          "gramy": 30
+        },
+        {
+          "etykieta": "porcja (talerz)",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "k_ryz",
+      "nazwa": "Ryż basmati gotowany",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 27.4,
+      "blonnik_100g": 0.6,
+      "cukry_100g": 0.1,
+      "ig": 57,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "woreczek ugotowany",
+          "gramy": 125
+        },
+        {
+          "etykieta": "porcja (talerz)",
+          "gramy": 150
+        },
+        {
+          "etykieta": "łyżka ugotowanego",
+          "gramy": 30
+        }
+      ]
+    },
+    {
+      "id": "n_mleko2",
+      "nazwa": "Mleko pełne 3,2%",
+      "kategoria": "Nabiał",
+      "weglowodany_100g": 4.8,
+      "blonnik_100g": 0.0,
+      "cukry_100g": 4.8,
+      "ig": 31,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "szklanka (250 ml)",
+          "gramy": 250
+        },
+        {
+          "etykieta": "kubek (200 ml)",
+          "gramy": 200
+        },
+        {
+          "etykieta": "pół szklanki (125 ml)",
+          "gramy": 125
+        }
+      ]
+    },
+    {
+      "id": "n_napoj",
+      "nazwa": "Napój sojowy (mleko sojowe)",
+      "kategoria": "Nabiał",
+      "weglowodany_100g": 3.3,
+      "blonnik_100g": 0.5,
+      "cukry_100g": 2.5,
+      "ig": 34,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "szklanka (250 ml)",
+          "gramy": 250
+        },
+        {
+          "etykieta": "kubek (200 ml)",
+          "gramy": 200
+        },
+        {
+          "etykieta": "pół szklanki (125 ml)",
+          "gramy": 125
+        }
+      ]
+    },
+    {
+      "id": "s_daktyle",
+      "nazwa": "Daktyle suszone",
+      "kategoria": "Słodycze",
+      "weglowodany_100g": 67.0,
+      "blonnik_100g": 8.0,
+      "cukry_100g": 63.0,
+      "ig": 50,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 daktyl",
+          "gramy": 8
+        },
+        {
+          "etykieta": "garść (5-6 szt.)",
+          "gramy": 40
+        },
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "s_lody",
+      "nazwa": "Lody waniliowe",
+      "kategoria": "Słodycze",
+      "weglowodany_100g": 23.0,
+      "blonnik_100g": 0.7,
+      "cukry_100g": 21.0,
+      "ig": 57,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 gałka",
+          "gramy": 50
+        },
+        {
+          "etykieta": "miseczka (2 gałki)",
+          "gramy": 100
+        },
+        {
+          "etykieta": "porcja deserowa",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "s_zelki",
+      "nazwa": "Żelki owocowe",
+      "kategoria": "Słodycze",
+      "weglowodany_100g": 93.0,
+      "blonnik_100g": 0.2,
+      "cukry_100g": 70.0,
+      "ig": 78,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "garść",
+          "gramy": 30
+        },
+        {
+          "etykieta": "mała paczka",
+          "gramy": 50
+        },
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "s_dzem",
+      "nazwa": "Dżem truskawkowy",
+      "kategoria": "Słodycze",
+      "weglowodany_100g": 64.0,
+      "blonnik_100g": 1.2,
+      "cukry_100g": 60.0,
+      "ig": 51,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "łyżeczka",
+          "gramy": 15
+        },
+        {
+          "etykieta": "porcja na kanapkę",
+          "gramy": 20
+        },
+        {
+          "etykieta": "łyżka",
+          "gramy": 25
+        }
+      ]
+    },
+    {
+      "id": "s_krem",
+      "nazwa": "Krem czekoladowo-orzechowy",
+      "kategoria": "Słodycze",
+      "weglowodany_100g": 57.5,
+      "blonnik_100g": 3.0,
+      "cukry_100g": 56.0,
+      "ig": 33,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "łyżeczka",
+          "gramy": 15
+        },
+        {
+          "etykieta": "porcja na kanapkę",
+          "gramy": 20
+        },
+        {
+          "etykieta": "łyżka",
+          "gramy": 30
+        }
+      ]
+    },
+    {
+      "id": "d_sok",
+      "nazwa": "Sok pomidorowy",
+      "kategoria": "Napoje",
+      "weglowodany_100g": 3.1,
+      "blonnik_100g": 0.4,
+      "cukry_100g": 3.1,
+      "ig": 38,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "szklanka 250 ml",
+          "gramy": 250
+        },
+        {
+          "etykieta": "mała szklanka 200 ml",
+          "gramy": 200
+        },
+        {
+          "etykieta": "puszka 330 ml",
+          "gramy": 330
+        }
+      ]
+    },
+    {
+      "id": "p_kurczakpiers",
+      "nazwa": "Pierś z kurczaka (grillowana)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "p_indykpiers",
+      "nazwa": "Pierś z indyka (gotowana)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "p_kurczakudko",
+      "nazwa": "Udko z kurczaka (pieczone)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 120
+        }
+      ]
+    },
+    {
+      "id": "p_kurczakskrzydelka",
+      "nazwa": "Skrzydełka z kurczaka (pieczone)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "p_wolowinapoledwica",
+      "nazwa": "Wołowina (polędwica, pieczona)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "p_wolowinamielona",
+      "nazwa": "Wołowina mielona (chuda)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 125
+        }
+      ]
+    },
+    {
+      "id": "p_schab",
+      "nazwa": "Schab wieprzowy (chudy, pieczony)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "p_boczek",
+      "nazwa": "Boczek wędzony",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0.5,
+      "blonnik_100g": 0,
+      "cukry_100g": 0.3,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "2 plastry",
+          "gramy": 30
+        }
+      ]
+    },
+    {
+      "id": "p_losos",
+      "nazwa": "Łosoś (pieczony)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "p_dorsz",
+      "nazwa": "Dorsz (gotowany)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "p_pstrag",
+      "nazwa": "Pstrąg (pieczony)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "p_halibut",
+      "nazwa": "Halibut (pieczony)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "p_makrelawedzona",
+      "nazwa": "Makrela wędzona",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "p_tunczyk",
+      "nazwa": "Tuńczyk w sosie własnym (puszka)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 puszka",
+          "gramy": 140
+        }
+      ]
+    },
+    {
+      "id": "p_sardynki",
+      "nazwa": "Sardynki w oleju (puszka)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 puszka",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "p_krewetki",
+      "nazwa": "Krewetki (gotowane)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0.3,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "p_jajko",
+      "nazwa": "Jajko kurze (gotowane)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0.8,
+      "blonnik_100g": 0,
+      "cukry_100g": 0.6,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 0,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "1 sztuka",
+          "gramy": 50
+        },
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "p_serzolty",
+      "nazwa": "Ser żółty (typu gouda)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 2.2,
+      "blonnik_100g": 0,
+      "cukry_100g": 2.2,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 plaster",
+          "gramy": 20
+        }
+      ]
+    },
+    {
+      "id": "p_serplesniowy",
+      "nazwa": "Ser pleśniowy (typu camembert)",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0.5,
+      "blonnik_100g": 0,
+      "cukry_100g": 0.5,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 30
+        }
+      ]
+    },
+    {
+      "id": "p_serfeta",
+      "nazwa": "Ser feta",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 4.0,
+      "blonnik_100g": 0,
+      "cukry_100g": 4.0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 50
+        }
+      ]
+    },
+    {
+      "id": "p_twarog",
+      "nazwa": "Twaróg półtłusty",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 3.5,
+      "blonnik_100g": 0,
+      "cukry_100g": 3.5,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "p_mozzarella",
+      "nazwa": "Mozzarella",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 2.2,
+      "blonnik_100g": 0,
+      "cukry_100g": 1.0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "p_mascarpone",
+      "nazwa": "Ser mascarpone",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 4.8,
+      "blonnik_100g": 0,
+      "cukry_100g": 4.8,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 50
+        }
+      ]
+    },
+    {
+      "id": "p_maslo",
+      "nazwa": "Masło",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 10
+        }
+      ]
+    },
+    {
+      "id": "p_oliwa",
+      "nazwa": "Oliwa z oliwek",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 10
+        }
+      ]
+    },
+    {
+      "id": "p_olejrzepakowy",
+      "nazwa": "Olej rzepakowy",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 10
+        }
+      ]
+    },
+    {
+      "id": "p_olejkokosowy",
+      "nazwa": "Olej kokosowy",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 0,
+      "blonnik_100g": 0,
+      "cukry_100g": 0,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 10
+        }
+      ]
+    },
+    {
+      "id": "p_orzechywloskie",
+      "nazwa": "Orzechy włoskie",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 7.0,
+      "blonnik_100g": 6.7,
+      "cukry_100g": 2.6,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "garść",
+          "gramy": 30
+        }
+      ]
+    },
+    {
+      "id": "p_orzechylaskowe",
+      "nazwa": "Orzechy laskowe",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 7.0,
+      "blonnik_100g": 9.7,
+      "cukry_100g": 4.3,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "garść",
+          "gramy": 30
+        }
+      ]
+    },
+    {
+      "id": "p_migdaly",
+      "nazwa": "Migdały",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 9.1,
+      "blonnik_100g": 12.5,
+      "cukry_100g": 4.4,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "garść",
+          "gramy": 30
+        }
+      ]
+    },
+    {
+      "id": "p_pestkidyni",
+      "nazwa": "Pestki dyni",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 4.7,
+      "blonnik_100g": 6.0,
+      "cukry_100g": 1.4,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "garść",
+          "gramy": 30
+        }
+      ]
+    },
+    {
+      "id": "p_slonecznik",
+      "nazwa": "Nasiona słonecznika",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 11.4,
+      "blonnik_100g": 8.6,
+      "cukry_100g": 2.6,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "garść",
+          "gramy": 30
+        }
+      ]
+    },
+    {
+      "id": "p_awokado",
+      "nazwa": "Awokado",
+      "kategoria": "Białko i tłuszcze",
+      "weglowodany_100g": 1.8,
+      "blonnik_100g": 6.7,
+      "cukry_100g": 0.7,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1/2 sztuki",
+          "gramy": 75
+        }
+      ]
+    },
+    {
+      "id": "w_salata",
+      "nazwa": "Sałata",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 1.8,
+      "blonnik_100g": 1.2,
+      "cukry_100g": 1.2,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 50
+        }
+      ]
+    },
+    {
+      "id": "w_ogorek",
+      "nazwa": "Ogórek świeży",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 3.1,
+      "blonnik_100g": 0.5,
+      "cukry_100g": 1.7,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 sztuka",
+          "gramy": 200
+        }
+      ]
+    },
+    {
+      "id": "w_pomidor",
+      "nazwa": "Pomidor świeży",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 2.7,
+      "blonnik_100g": 1.2,
+      "cukry_100g": 2.6,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 sztuka",
+          "gramy": 120
+        }
+      ]
+    },
+    {
+      "id": "w_paprykaczerwona",
+      "nazwa": "Papryka czerwona świeża",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 3.9,
+      "blonnik_100g": 2.1,
+      "cukry_100g": 3.9,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 sztuka",
+          "gramy": 120
+        }
+      ]
+    },
+    {
+      "id": "w_cukinia",
+      "nazwa": "Cukinia (surowa)",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 2.1,
+      "blonnik_100g": 1.0,
+      "cukry_100g": 2.1,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 sztuka",
+          "gramy": 200
+        }
+      ]
+    },
+    {
+      "id": "w_kalafior",
+      "nazwa": "Kalafior (surowy)",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 3.0,
+      "blonnik_100g": 2.0,
+      "cukry_100g": 1.9,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "w_brokulsurowy",
+      "nazwa": "Brokuł surowy",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 3.9,
+      "blonnik_100g": 2.6,
+      "cukry_100g": 1.5,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "w_szpinak",
+      "nazwa": "Szpinak (świeży)",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 0.4,
+      "blonnik_100g": 2.2,
+      "cukry_100g": 0.4,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 60
+        }
+      ]
+    },
+    {
+      "id": "w_pieczarki",
+      "nazwa": "Pieczarki (świeże)",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 2.3,
+      "blonnik_100g": 1.0,
+      "cukry_100g": 1.7,
+      "ig": 0,
+      "ig_zrodlo": "zmierzone",
+      "ig_dotyczy": false,
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 100
+        }
+      ]
+    },
+    {
+      "id": "w_ziemniakpuree",
+      "nazwa": "Ziemniaki puree (z płatków instant)",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 16.8,
+      "blonnik_100g": 1.3,
+      "cukry_100g": 1.0,
+      "ig": 88,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 200
+        }
+      ],
+      "zrodlo_doi": "10.1016/j.jada.2005.01.003",
+      "zrodlo_rok": 2005,
+      "metoda_iso": true
+    },
+    {
+      "id": "w_ziemniakpieczony",
+      "nazwa": "Ziemniak pieczony",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 21.5,
+      "blonnik_100g": 2.3,
+      "cukry_100g": 1.1,
+      "ig": 77,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 sztuka",
+          "gramy": 180
+        }
+      ],
+      "zrodlo_doi": "10.1016/j.jada.2005.01.003",
+      "zrodlo_rok": 2005,
+      "metoda_iso": true
+    },
+    {
+      "id": "w_frytki",
+      "nazwa": "Frytki",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 38.0,
+      "blonnik_100g": 3.8,
+      "cukry_100g": 0.3,
+      "ig": 64,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 150
+        }
+      ],
+      "zrodlo_doi": "10.1016/j.jada.2005.01.003",
+      "zrodlo_rok": 2005,
+      "metoda_iso": true
+    },
+    {
+      "id": "w_ziemniakschlodzony",
+      "nazwa": "Ziemniak gotowany, schłodzony",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 17,
+      "blonnik_100g": 1.8,
+      "cukry_100g": 1,
+      "ig": 56,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 sztuka",
+          "gramy": 180
+        }
+      ],
+      "zrodlo_doi": "10.1016/j.jada.2005.01.003",
+      "zrodlo_rok": 2005,
+      "metoda_iso": true
+    },
+    {
+      "id": "k_makaronaldente",
+      "nazwa": "Makaron pszenny (ugotowany al dente, ok. 5 min)",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 25.0,
+      "blonnik_100g": 1.8,
+      "cukry_100g": 0.6,
+      "ig": 45,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 180
+        }
+      ],
+      "zrodlo_doi": "10.2337/diacare.9.4.401",
+      "zrodlo_rok": 1986,
+      "metoda_iso": true
+    },
+    {
+      "id": "k_makarondlugo",
+      "nazwa": "Makaron pszenny (ugotowany dłużej, ok. 15 min)",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 25.0,
+      "blonnik_100g": 1.8,
+      "cukry_100g": 0.6,
+      "ig": 46,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja",
+          "gramy": 180
+        }
+      ],
+      "zrodlo_doi": "10.2337/diacare.9.4.401",
+      "zrodlo_rok": 1986,
+      "metoda_iso": true
+    },
+    {
+      "id": "k_ryzparboiledlagodny",
+      "nazwa": "Ryż parboiled (łagodnie)",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 26.0,
+      "blonnik_100g": 0.5,
+      "cukry_100g": 0.1,
+      "ig": 46,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 200
+        }
+      ],
+      "zrodlo_doi": "10.1038/sj.ejcn.1600969",
+      "zrodlo_rok": 2000,
+      "metoda_iso": false
+    },
+    {
+      "id": "k_ryzparboiledmocny",
+      "nazwa": "Ryż parboiled (mocno, ciśnieniowo)",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 26.0,
+      "blonnik_100g": 0.5,
+      "cukry_100g": 0.1,
+      "ig": 39,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 200
+        }
+      ],
+      "zrodlo_doi": "10.1038/sj.ejcn.1600969",
+      "zrodlo_rok": 2000,
+      "metoda_iso": false
+    },
+    {
+      "id": "w_soczewica",
+      "nazwa": "Soczewica (zielona/brązowa), gotowana",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 12.2,
+      "blonnik_100g": 7.9,
+      "cukry_100g": 1.8,
+      "ig": 25,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.3390/foods7050076",
+      "zrodlo_rok": 2018,
+      "metoda_iso": true,
+      "synonimy": [
+        "lentil",
+        "lentils",
+        "soczewica gotowana"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 20
+        },
+        {
+          "etykieta": "1 porcja (talerz)",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "k_ryzschlodzony",
+      "nazwa": "Ryż biały gotowany, schłodzony w lodówce (5 dni)",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 27.8,
+      "blonnik_100g": 0.4,
+      "cukry_100g": 0.1,
+      "ig": 54,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.3390/foods15091472",
+      "zrodlo_rok": 2026,
+      "metoda_iso": true,
+      "synonimy": [
+        "ryz schlodzony",
+        "cooled rice",
+        "skrobia oporna ryz"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja (talerz)",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "k_platkikukurydziane",
+      "nazwa": "Płatki kukurydziane (Corn Flakes), na sucho",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 81,
+      "blonnik_100g": 3.3,
+      "cukry_100g": 7.4,
+      "ig": 64,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.1186/1475-2891-13-50",
+      "zrodlo_rok": 2014,
+      "metoda_iso": true,
+      "synonimy": [
+        "cornflakes",
+        "corn flakes",
+        "platki kukurydziane"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 miska",
+          "gramy": 30
+        }
+      ]
+    },
+    {
+      "id": "k_kaszamanna",
+      "nazwa": "Kasza manna (budyń, ugotowana i schłodzona, bez mleka i cukru)",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 11.7,
+      "blonnik_100g": 0.5,
+      "cukry_100g": 1,
+      "ig": 74,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.1039/c9fo02460c",
+      "zrodlo_rok": 2020,
+      "metoda_iso": true,
+      "synonimy": [
+        "kasza manna",
+        "semolina",
+        "grys pszenny"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja (miska)",
+          "gramy": 200
+        }
+      ]
+    }
+  ]
+}
