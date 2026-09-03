@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 10,
   "products": [
     {
       "id": "o_jablko",
@@ -2804,6 +2804,502 @@
         {
           "etykieta": "1 porcja (miska)",
           "gramy": 200
+        }
+      ]
+    },
+    {
+      "id": "w_ciecierzyca",
+      "nazwa": "Ciecierzyca ugotowana",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 27.4,
+      "blonnik_100g": 7.6,
+      "cukry_100g": 4.8,
+      "ig": 36,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.33899/magrj.2005.35897",
+      "zrodlo_rok": 2005,
+      "metoda_iso": false,
+      "synonimy": [
+        "cieciorka",
+        "ciecierzyca gotowana",
+        "chickpea"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 20
+        },
+        {
+          "etykieta": "1 porcja (miska)",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "w_fasolaczerwona",
+      "nazwa": "Fasola czerwona (kidney), gotowana",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 22.8,
+      "blonnik_100g": 7.4,
+      "cukry_100g": 0.3,
+      "ig": 29,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.1093/ajcn/34.3.362",
+      "zrodlo_rok": 1981,
+      "metoda_iso": false,
+      "synonimy": [
+        "fasola kidney",
+        "czerwona fasola",
+        "kidney beans"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 20
+        },
+        {
+          "etykieta": "1 porcja (miska)",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "w_fasolabiala",
+      "nazwa": "Fasola biała (haricot), gotowana",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 25.1,
+      "blonnik_100g": 6.3,
+      "cukry_100g": 0.4,
+      "ig": 31,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.1093/ajcn/34.3.362",
+      "zrodlo_rok": 1981,
+      "metoda_iso": false,
+      "synonimy": [
+        "biała fasola",
+        "fasola cannellini",
+        "white beans"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 20
+        },
+        {
+          "etykieta": "1 porcja (miska)",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "w_groch",
+      "nazwa": "Groch suchy, gotowany",
+      "kategoria": "Warzywa",
+      "weglowodany_100g": 21.1,
+      "blonnik_100g": 8.3,
+      "cukry_100g": 2.9,
+      "ig": 47,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.1093/ajcn/34.3.362",
+      "zrodlo_rok": 1981,
+      "metoda_iso": false,
+      "synonimy": [
+        "groch łuskany",
+        "groch gotowany",
+        "split peas"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 20
+        },
+        {
+          "etykieta": "1 porcja (miska)",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "k_musli",
+      "nazwa": "Musli (z cukrem i suszonymi owocami)",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 70.6,
+      "blonnik_100g": 10.8,
+      "cukry_100g": 16.4,
+      "ig": 55,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.1017/S0007114518000703",
+      "zrodlo_rok": 2018,
+      "metoda_iso": true,
+      "synonimy": [
+        "muesli",
+        "musli owocowe"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja (miska)",
+          "gramy": 50
+        },
+        {
+          "etykieta": "1 szklanka",
+          "gramy": 90
+        }
+      ]
+    },
+    {
+      "id": "b_tostowe",
+      "nazwa": "Pieczywo tostowe białe",
+      "kategoria": "Pieczywo",
+      "weglowodany_100g": 54.5,
+      "blonnik_100g": 2.9,
+      "cukry_100g": 6.2,
+      "ig": 70,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.1017/jns.2022.74",
+      "zrodlo_rok": 2022,
+      "metoda_iso": true,
+      "synonimy": [
+        "chleb tostowy",
+        "tost",
+        "pieczywo kanapkowe"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 kromka",
+          "gramy": 25
+        },
+        {
+          "etykieta": "2 kromki (tost)",
+          "gramy": 50
+        }
+      ]
+    },
+    {
+      "id": "o_morelasuszona",
+      "nazwa": "Morela suszona",
+      "kategoria": "Owoce",
+      "weglowodany_100g": 62.6,
+      "blonnik_100g": 7.3,
+      "cukry_100g": 53.4,
+      "ig": 42,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.1038/s41387-018-0066-5",
+      "zrodlo_rok": 2018,
+      "metoda_iso": true,
+      "synonimy": [
+        "suszone morele",
+        "morele suszone"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 łyżka",
+          "gramy": 15
+        },
+        {
+          "etykieta": "1 garść (5 szt.)",
+          "gramy": 40
+        }
+      ]
+    },
+    {
+      "id": "k_kuskus",
+      "nazwa": "Kuskus gotowany",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 26.4,
+      "blonnik_100g": 1.6,
+      "cukry_100g": 0.5,
+      "ig": 99,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.32394/rpzh.2020.0101",
+      "zrodlo_rok": 2020,
+      "metoda_iso": false,
+      "synonimy": [
+        "couscous"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "łyżka ugotowanego",
+          "gramy": 30
+        },
+        {
+          "etykieta": "porcja (talerz)",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "k_bulgur",
+      "nazwa": "Bulgur gotowany",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 21.5,
+      "blonnik_100g": 2.8,
+      "cukry_100g": 0.3,
+      "ig": 65,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.32394/rpzh.2020.0101",
+      "zrodlo_rok": 2020,
+      "metoda_iso": false,
+      "synonimy": [
+        "bulgur pszenny"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "łyżka ugotowanego",
+          "gramy": 30
+        },
+        {
+          "etykieta": "porcja (talerz)",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "k_orkiszziarno",
+      "nazwa": "Orkisz w ziarnie (kasza orkiszowa) gotowany",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 21.8,
+      "blonnik_100g": 3.3,
+      "cukry_100g": 0.4,
+      "ig": 70,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.32394/rpzh.2020.0101",
+      "zrodlo_rok": 2020,
+      "metoda_iso": false,
+      "synonimy": [
+        "kasza orkiszowa",
+        "orkisz gotowany",
+        "ziarno orkiszu"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "łyżka ugotowanego",
+          "gramy": 30
+        },
+        {
+          "etykieta": "porcja (talerz)",
+          "gramy": 150
+        }
+      ]
+    },
+    {
+      "id": "k_ryzjasminowy",
+      "nazwa": "Ryż jaśminowy gotowany",
+      "kategoria": "Kasze i ryż",
+      "weglowodany_100g": 28.2,
+      "blonnik_100g": 0.4,
+      "cukry_100g": 0.1,
+      "ig": 108,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.3109/09637486.2013.869797",
+      "zrodlo_rok": 2014,
+      "metoda_iso": false,
+      "synonimy": [
+        "jasmine rice",
+        "ryz jasminowy"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "porcja (talerz)",
+          "gramy": 150
+        },
+        {
+          "etykieta": "łyżka ugotowanego",
+          "gramy": 30
+        }
+      ]
+    },
+    {
+      "id": "n_maslanka",
+      "nazwa": "Maślanka",
+      "kategoria": "Nabiał",
+      "weglowodany_100g": 4.8,
+      "blonnik_100g": 0.0,
+      "cukry_100g": 4.8,
+      "ig": 15,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.1093/ajcn/74.1.96",
+      "zrodlo_rok": 2001,
+      "metoda_iso": false,
+      "synonimy": [
+        "buttermilk"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "szklanka (250 ml)",
+          "gramy": 250
+        },
+        {
+          "etykieta": "kubek (200 ml)",
+          "gramy": 200
+        }
+      ]
+    },
+    {
+      "id": "d_sokzburaka",
+      "nazwa": "Sok z buraka (buraczany)",
+      "kategoria": "Napoje",
+      "weglowodany_100g": 22.4,
+      "blonnik_100g": 0.5,
+      "cukry_100g": 21.9,
+      "ig": 52,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.1017/jns.2014.7",
+      "zrodlo_rok": 2014,
+      "metoda_iso": false,
+      "synonimy": [
+        "sok buraczany",
+        "beetroot juice"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "szklanka 250 ml",
+          "gramy": 250
+        },
+        {
+          "etykieta": "mała szklanka 200 ml",
+          "gramy": 200
+        }
+      ]
+    },
+    {
+      "id": "s_chalwa",
+      "nazwa": "Chałwa (semolinowa, z bakaliami)",
+      "kategoria": "Słodycze",
+      "weglowodany_100g": 62.4,
+      "blonnik_100g": 6.0,
+      "cukry_100g": 6.0,
+      "ig": 52,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.3390/ijerph191811502",
+      "zrodlo_rok": 2022,
+      "metoda_iso": true,
+      "synonimy": [
+        "chałwa grecka",
+        "halva"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "1 porcja (kostka)",
+          "gramy": 40
+        }
+      ]
+    },
+    {
+      "id": "d_izotoniczny",
+      "nazwa": "Napój izotoniczny sportowy (typu Gatorade)",
+      "kategoria": "Napoje",
+      "weglowodany_100g": 6.1,
+      "blonnik_100g": 0.0,
+      "cukry_100g": 5.8,
+      "ig": 89,
+      "ig_zrodlo": "zmierzone",
+      "domyslna_porcja": 1,
+      "kod_kreskowy": null,
+      "zrodlo_doi": "10.1016/S0002-8223(02)90097-0",
+      "zrodlo_rok": 2002,
+      "metoda_iso": false,
+      "synonimy": [
+        "gatorade",
+        "powerade",
+        "napój sportowy",
+        "elektrolity"
+      ],
+      "porcje": [
+        {
+          "etykieta": "100 g",
+          "gramy": 100
+        },
+        {
+          "etykieta": "mała butelka (500 ml)",
+          "gramy": 500
+        },
+        {
+          "etykieta": "szklanka (250 ml)",
+          "gramy": 250
         }
       ]
     }
