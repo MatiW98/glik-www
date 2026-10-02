@@ -44,7 +44,7 @@
 <body>
 <main>
   <h1>Polityka prywatności</h1>
-  <p class="updated">Aplikacja Glik &middot; ostatnia aktualizacja: 1 października 2026 (obowiązuje od 28 lipca 2026)</p>
+  <p class="updated">Aplikacja Glik &middot; ostatnia aktualizacja: 2 października 2026 (obowiązuje od 28 lipca 2026)</p>
 
   <div class="card">
     <p class="lead"><strong>Krótko:</strong> Glik nie ma kont, nie zbiera danych
@@ -87,7 +87,11 @@
     <a href="https://world.openfoodfacts.org" rel="noopener">Open Food Facts</a>,
     żeby pobrać wartości odżywcze tego produktu.</li>
     <li><strong>Pobranie bazy offline.</strong> Gdy naciśniesz przycisk w
-    Ustawieniach, pobieramy listę popularnych produktów z Open Food Facts.</li>
+    Ustawieniach, pobieramy jeden plik z popularnymi produktami z Open Food
+    Facts ze strony Glika w serwisie GitHub Pages (z tego samego adresu co ta
+    strona). Plik odświeżamy co tydzień. Gdy jest niedostępny, aplikacja pobiera listę
+    produktów bezpośrednio z Open Food Facts. W obu przypadkach bez logowania
+    i bez identyfikatorów.</li>
     <li><strong>Sprawdzenie nowszej wersji wbudowanej bazy produktów.</strong>
     Przy starcie aplikacja po cichu sprawdza jeden statyczny plik z listą
     produktów, bez logowania i bez identyfikatorów. Brak internetu albo brak
@@ -102,8 +106,11 @@
   adres IP, z którego przychodzi zapytanie. Ten adres trafia do Open Food Facts,
   a nie do nas, i podlega
   <a href="https://world.openfoodfacts.org/privacy" rel="noopener">ich polityce
-  prywatności</a>. Jeśli chcesz tego uniknąć, pobierz bazę offline raz przez
-  sieć, a potem korzystaj z aplikacji bez internetu.</p>
+  prywatności</a>. Pliki ze strony Glika (baza offline i plik z listą
+  produktów) wysyła GitHub Pages: tam adres IP widzi GitHub, zgodnie z
+  <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener">polityką
+  prywatności GitHub</a>, a nie my. Jeśli chcesz tego uniknąć, pobierz bazę
+  offline raz przez sieć, a potem korzystaj z aplikacji bez internetu.</p>
 
   <h2>Kamera</h2>
   <p>Dostęp do kamery służy wyłącznie do odczytania kodu kreskowego. Obraz jest

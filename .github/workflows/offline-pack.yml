@@ -1,0 +1,43 @@
+name: Offline pack
+
+# Rebuilds offline-pack.json (the Glik app's offline database) from Open Food
+# Facts every week. See README.md.
+on:
+  schedule:
+    - cron: '17 4 * * 1' # Monday 04:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: offline-pack
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.x'
+
+      # Exits non-zero (failing the run) without touching the file when a page
+      # fails or fewer than 300 products come back.
+      - name: Build offline-pack.json
+        run: python3 tools/build_offline_pack.py
+
+      - name: Commit and push if changed
+        run: |
+          if [ -z "$(git status --porcelain -- offline-pack.json)" ]; then
+            echo "offline-pack.json unchanged, nothing to commit"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add offline-pack.json
+          git commit -m "Paczka offline: odświeżenie $(date -u +%Y-%m-%d)"
+          git push
