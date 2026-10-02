@@ -9,6 +9,7 @@ on:
 
 permissions:
   contents: write
+  pages: write # to request the Pages build below
 
 concurrency:
   group: offline-pack
@@ -31,6 +32,7 @@ jobs:
         run: python3 tools/build_offline_pack.py
 
       - name: Commit and push if changed
+        id: push
         run: |
           if [ -z "$(git status --porcelain -- offline-pack.json)" ]; then
             echo "offline-pack.json unchanged, nothing to commit"
@@ -41,3 +43,13 @@ jobs:
           git add offline-pack.json
           git commit -m "Paczka offline: odświeżenie $(date -u +%Y-%m-%d)"
           git push
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # "Commits pushed by a GitHub Actions workflow that uses the GITHUB_TOKEN
+      # do not trigger a GitHub Pages build" (GitHub docs), so the new file
+      # would never go live without this.
+      - name: Request a GitHub Pages build
+        if: steps.push.outputs.pushed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds"
