@@ -12,9 +12,12 @@ no sort, page_size=100, pages 1..10. Standard library only.
     python3 tools/build_offline_pack.py            # writes ./offline-pack.json
     python3 tools/build_offline_pack.py --out x.json
 
-Exit code 0: the file was written, or the products are unchanged. Any failed
-page, or fewer than MIN_PRODUCTS products, exits 1 and leaves the existing
-file untouched, so a bad run never replaces a good pack.
+Exit code 0: the file was written, or the products are unchanged. OFF often
+answers 503 for minutes at a time, so a page that keeps failing after page 1
+(or the run's time budget running out) ends the fetch early: the pages that
+did arrive are kept and the missing ones are filled from the existing pack,
+so coverage never shrinks. Exit code 1 only when page 1 itself fails or fewer
+than MIN_PRODUCTS products remain; the existing file is then left untouched.
 """
 from __future__ import annotations
 
@@ -51,7 +54,9 @@ NUTRIMENT_KEYS = (
 )
 USER_AGENT = "GlikPackBuilder/1.0 (mateuszwyszogrodzki@o2.pl)"
 PAGE_DELAY = 6.5  # OFF allows 10 search requests a minute per IP
-MAX_ATTEMPTS = 8
+MAX_ATTEMPTS = 10
+MAX_BACKOFF = 60.0  # OFF's 503 bursts often last minutes, not seconds
+RUN_BUDGET = 22 * 60  # seconds; the workflow job times out at 30 minutes
 TIMEOUT = 30
 MIN_PRODUCTS = 300
 LICENSE = ("Open Database License (ODbL) 1.0; product data © Open Food Facts "
@@ -62,25 +67,33 @@ class EndOfData(Exception):
     """OFF refused a page after the first: the anonymous limit, not an error."""
 
 
-def backoff(attempt: int) -> float:
-    """2, 4, then 6.5 s for every later attempt."""
-    return min(2.0 * (2 ** attempt), PAGE_DELAY)
+def backoff(attempt: int, retry_after: str | None = None) -> float:
+    """2, 4, 8 ... capped at MAX_BACKOFF; OFF's Retry-After wins when sane."""
+    if retry_after and retry_after.strip().isdigit():
+        return min(max(float(retry_after), 1.0), 120.0)
+    return min(2.0 * (2 ** attempt), MAX_BACKOFF)
 
 
-def fetch_page(page: int) -> list:
+class OutOfTime(Exception):
+    """The run's time budget ran out between retries."""
+
+
+def fetch_page(page: int, deadline: float = float("inf")) -> list:
     url = (f"{SEARCH}?fields={FIELDS}&page_size={PAGE_SIZE}&page={page}")
     req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
     last = "no attempt"
     for attempt in range(MAX_ATTEMPTS):
+        retry_after = None
         try:
             with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
                 body = resp.read()
         except urllib.error.HTTPError as e:
             if e.code in (401, 403) and page > 1:
                 raise EndOfData() from e
-            if e.code < 500:
+            if e.code < 500 and e.code != 429:
                 raise RuntimeError(f"page {page}: HTTP {e.code}") from e
             last = f"HTTP {e.code}"
+            retry_after = e.headers.get("Retry-After") if e.headers else None
         except (urllib.error.URLError, http.client.HTTPException, TimeoutError,
                 OSError) as e:
             last = f"{type(e).__name__}: {e}"
@@ -94,7 +107,9 @@ def fetch_page(page: int) -> list:
                 return products
             last = "malformed body"
         if attempt + 1 < MAX_ATTEMPTS:
-            wait = backoff(attempt)
+            wait = backoff(attempt, retry_after)
+            if time.monotonic() + wait > deadline:
+                raise OutOfTime(f"page {page}: time budget used up ({last})")
             print(f"  page {page}: {last}, retry in {wait:g} s", file=sys.stderr)
             time.sleep(wait)
     raise RuntimeError(f"page {page}: gave up after {MAX_ATTEMPTS} attempts ({last})")
@@ -115,15 +130,24 @@ def trim(product: dict) -> dict | None:
     return out
 
 
-def collect() -> list:
+def collect() -> tuple[list, bool]:
+    """Products in OFF order, and whether every page arrived."""
     products, seen = [], set()
+    deadline = time.monotonic() + RUN_BUDGET
+    complete = True
     for page in range(1, LAST_PAGE + 1):
         if page > 1:
             time.sleep(PAGE_DELAY)
         try:
-            raw = fetch_page(page)
+            raw = fetch_page(page, deadline)
         except EndOfData:
             print(f"page {page}: refused (anonymous limit), end of data")
+            break
+        except (RuntimeError, OutOfTime) as e:
+            if page == 1:
+                raise
+            print(f"page {page}: {e}; keeping pages 1-{page - 1}", file=sys.stderr)
+            complete = False
             break
         kept = 0
         for item in raw:
@@ -136,7 +160,7 @@ def collect() -> list:
         print(f"page {page}: {len(raw)} received, {kept} kept")
         if len(raw) < PAGE_SIZE:
             break  # last page
-    return products
+    return products, complete
 
 
 def existing_products(path: pathlib.Path):
@@ -153,10 +177,18 @@ def main() -> int:
     out = ap.parse_args().out
 
     try:
-        products = collect()
+        products, complete = collect()
     except Exception as e:  # noqa: BLE001 - any failure must keep the old file
         print(f"FAILED: {e}; {out.name} left unchanged", file=sys.stderr)
         return 1
+    if not complete:
+        # Fill the pages OFF did not serve from the current pack, so a partial
+        # run refreshes what it got without dropping anything.
+        seen = {p["code"] for p in products}
+        old = existing_products(out) or []
+        filled = [p for p in old if isinstance(p, dict) and p.get("code") not in seen]
+        products += filled
+        print(f"partial fetch: {len(filled)} products carried over from the existing pack")
     if len(products) < MIN_PRODUCTS:
         print(f"FAILED: only {len(products)} products (< {MIN_PRODUCTS}); "
               f"{out.name} left unchanged", file=sys.stderr)
