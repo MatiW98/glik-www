@@ -1,5 +1,5 @@
 {
-  "version": 18,
+  "version": 23,
   "products": [
     {
       "id": "o_jablko",
@@ -772,7 +772,7 @@
       "id": "k_owsiane",
       "name": "Płatki owsiane",
       "name_en": "Rolled oats",
-      "category": "Kasze i ryż",
+      "category": "Płatki i musli",
       "carbs_100g": 60,
       "fiber_100g": 10,
       "sugars_100g": 1,
@@ -1050,7 +1050,7 @@
       "id": "s_miod",
       "name": "Miód",
       "name_en": "Honey",
-      "category": "Słodycze",
+      "category": "Cukier, miód i dżemy",
       "carbs_100g": 82,
       "fiber_100g": 0,
       "sugars_100g": 82,
@@ -1089,7 +1089,7 @@
       "id": "s_cukier",
       "name": "Cukier biały",
       "name_en": "White sugar",
-      "category": "Słodycze",
+      "category": "Cukier, miód i dżemy",
       "carbs_100g": 100,
       "fiber_100g": 0,
       "sugars_100g": 100,
@@ -1727,7 +1727,7 @@
       "id": "w_bob",
       "name": "Bób gotowany",
       "name_en": "Boiled broad beans",
-      "category": "Warzywa",
+      "category": "Strączkowe",
       "carbs_100g": 9.4,
       "fiber_100g": 3.1,
       "sugars_100g": 0.4,
@@ -2203,7 +2203,7 @@
       "id": "n_napoj",
       "name": "Napój sojowy (mleko sojowe)",
       "name_en": "Soya milk",
-      "category": "Nabiał",
+      "category": "Napoje",
       "carbs_100g": 3.3,
       "fiber_100g": 0.5,
       "sugars_100g": 2.5,
@@ -2252,7 +2252,7 @@
       "id": "s_daktyle",
       "name": "Daktyle suszone",
       "name_en": "Dried dates",
-      "category": "Słodycze",
+      "category": "Owoce",
       "carbs_100g": 67.0,
       "fiber_100g": 8.0,
       "sugars_100g": 63.0,
@@ -2390,7 +2390,7 @@
       "id": "s_dzem",
       "name": "Dżem truskawkowy",
       "name_en": "Strawberry jam",
-      "category": "Słodycze",
+      "category": "Cukier, miód i dżemy",
       "carbs_100g": 64.0,
       "fiber_100g": 1.2,
       "sugars_100g": 60.0,
@@ -2533,7 +2533,7 @@
       "id": "p_kurczakpiers",
       "name": "Pierś z kurczaka (grillowana)",
       "name_en": "Grilled chicken breast",
-      "category": "Białko i tłuszcze",
+      "category": "Mięso i wędliny",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -2570,7 +2570,7 @@
       "id": "p_indykpiers",
       "name": "Pierś z indyka (gotowana)",
       "name_en": "Poached turkey breast",
-      "category": "Białko i tłuszcze",
+      "category": "Mięso i wędliny",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -2607,7 +2607,7 @@
       "id": "p_kurczakudko",
       "name": "Udko z kurczaka (pieczone)",
       "name_en": "Roast chicken leg",
-      "category": "Białko i tłuszcze",
+      "category": "Mięso i wędliny",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -2644,7 +2644,7 @@
       "id": "p_kurczakskrzydelka",
       "name": "Skrzydełka z kurczaka (pieczone)",
       "name_en": "Roast chicken wings",
-      "category": "Białko i tłuszcze",
+      "category": "Mięso i wędliny",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -2681,7 +2681,7 @@
       "id": "p_wolowinapoledwica",
       "name": "Wołowina (polędwica, pieczona)",
       "name_en": "Roast beef tenderloin",
-      "category": "Białko i tłuszcze",
+      "category": "Mięso i wędliny",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -2718,7 +2718,7 @@
       "id": "p_wolowinamielona",
       "name": "Wołowina mielona (chuda)",
       "name_en": "Lean minced beef",
-      "category": "Białko i tłuszcze",
+      "category": "Mięso i wędliny",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -2755,7 +2755,7 @@
       "id": "p_schab",
       "name": "Schab wieprzowy (chudy, pieczony)",
       "name_en": "Roast pork loin (lean)",
-      "category": "Białko i tłuszcze",
+      "category": "Mięso i wędliny",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -2792,7 +2792,7 @@
       "id": "p_boczek",
       "name": "Boczek wędzony",
       "name_en": "Smoked bacon",
-      "category": "Białko i tłuszcze",
+      "category": "Mięso i wędliny",
       "carbs_100g": 0.5,
       "fiber_100g": 0,
       "sugars_100g": 0.3,
@@ -2830,7 +2830,7 @@
       "id": "p_losos",
       "name": "Łosoś (pieczony)",
       "name_en": "Baked salmon",
-      "category": "Białko i tłuszcze",
+      "category": "Ryby i owoce morza",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -2867,7 +2867,7 @@
       "id": "p_dorsz",
       "name": "Dorsz (gotowany)",
       "name_en": "Poached cod",
-      "category": "Białko i tłuszcze",
+      "category": "Ryby i owoce morza",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -2904,7 +2904,7 @@
       "id": "p_pstrag",
       "name": "Pstrąg (pieczony)",
       "name_en": "Baked trout",
-      "category": "Białko i tłuszcze",
+      "category": "Ryby i owoce morza",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -2941,7 +2941,7 @@
       "id": "p_halibut",
       "name": "Halibut (pieczony)",
       "name_en": "Baked halibut",
-      "category": "Białko i tłuszcze",
+      "category": "Ryby i owoce morza",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -2978,7 +2978,7 @@
       "id": "p_makrelawedzona",
       "name": "Makrela wędzona",
       "name_en": "Smoked mackerel",
-      "category": "Białko i tłuszcze",
+      "category": "Ryby i owoce morza",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -3015,7 +3015,7 @@
       "id": "p_tunczyk",
       "name": "Tuńczyk w sosie własnym (puszka)",
       "name_en": "Tinned tuna in brine",
-      "category": "Białko i tłuszcze",
+      "category": "Ryby i owoce morza",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -3052,7 +3052,7 @@
       "id": "p_sardynki",
       "name": "Sardynki w oleju (puszka)",
       "name_en": "Tinned sardines in oil",
-      "category": "Białko i tłuszcze",
+      "category": "Ryby i owoce morza",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -3089,7 +3089,7 @@
       "id": "p_krewetki",
       "name": "Krewetki (gotowane)",
       "name_en": "Cooked prawns",
-      "category": "Białko i tłuszcze",
+      "category": "Ryby i owoce morza",
       "carbs_100g": 0.3,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -3127,7 +3127,7 @@
       "id": "p_jajko",
       "name": "Jajko kurze (gotowane)",
       "name_en": "Boiled egg",
-      "category": "Białko i tłuszcze",
+      "category": "Nabiał",
       "carbs_100g": 0.8,
       "fiber_100g": 0,
       "sugars_100g": 0.6,
@@ -3165,7 +3165,7 @@
       "id": "p_serzolty",
       "name": "Ser żółty (typu gouda)",
       "name_en": "Gouda cheese",
-      "category": "Białko i tłuszcze",
+      "category": "Nabiał",
       "carbs_100g": 2.2,
       "fiber_100g": 0,
       "sugars_100g": 2.2,
@@ -3205,7 +3205,7 @@
       "id": "p_serplesniowy",
       "name": "Ser pleśniowy (typu camembert)",
       "name_en": "Camembert cheese",
-      "category": "Białko i tłuszcze",
+      "category": "Nabiał",
       "carbs_100g": 0.5,
       "fiber_100g": 0,
       "sugars_100g": 0.5,
@@ -3243,7 +3243,7 @@
       "id": "p_serfeta",
       "name": "Ser feta",
       "name_en": "Feta cheese",
-      "category": "Białko i tłuszcze",
+      "category": "Nabiał",
       "carbs_100g": 0.65,
       "fiber_100g": 0,
       "sugars_100g": 0.65,
@@ -3281,7 +3281,7 @@
       "id": "p_twarog",
       "name": "Twaróg półtłusty",
       "name_en": "Quark (medium-fat curd cheese)",
-      "category": "Białko i tłuszcze",
+      "category": "Nabiał",
       "carbs_100g": 3.5,
       "fiber_100g": 0,
       "sugars_100g": 3.5,
@@ -3322,7 +3322,7 @@
       "id": "p_mozzarella",
       "name": "Mozzarella",
       "name_en": "Mozzarella",
-      "category": "Białko i tłuszcze",
+      "category": "Nabiał",
       "carbs_100g": 0.75,
       "fiber_100g": 0,
       "sugars_100g": 0.7,
@@ -3360,7 +3360,7 @@
       "id": "p_mascarpone",
       "name": "Ser mascarpone",
       "name_en": "Mascarpone cheese",
-      "category": "Białko i tłuszcze",
+      "category": "Nabiał",
       "carbs_100g": 4.0,
       "fiber_100g": 0,
       "sugars_100g": 4.0,
@@ -3400,7 +3400,7 @@
       "id": "p_maslo",
       "name": "Masło",
       "name_en": "Butter",
-      "category": "Białko i tłuszcze",
+      "category": "Tłuszcze",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -3437,7 +3437,7 @@
       "id": "p_oliwa",
       "name": "Oliwa z oliwek",
       "name_en": "Olive oil",
-      "category": "Białko i tłuszcze",
+      "category": "Tłuszcze",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -3474,7 +3474,7 @@
       "id": "p_olejrzepakowy",
       "name": "Olej rzepakowy",
       "name_en": "Rapeseed oil",
-      "category": "Białko i tłuszcze",
+      "category": "Tłuszcze",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -3511,7 +3511,7 @@
       "id": "p_olejkokosowy",
       "name": "Olej kokosowy",
       "name_en": "Coconut oil",
-      "category": "Białko i tłuszcze",
+      "category": "Tłuszcze",
       "carbs_100g": 0,
       "fiber_100g": 0,
       "sugars_100g": 0,
@@ -3548,7 +3548,7 @@
       "id": "p_orzechywloskie",
       "name": "Orzechy włoskie",
       "name_en": "Walnuts",
-      "category": "Białko i tłuszcze",
+      "category": "Orzechy i nasiona",
       "carbs_100g": 7.0,
       "fiber_100g": 6.7,
       "sugars_100g": 2.6,
@@ -3586,7 +3586,7 @@
       "id": "p_orzechylaskowe",
       "name": "Orzechy laskowe",
       "name_en": "Hazelnuts",
-      "category": "Białko i tłuszcze",
+      "category": "Orzechy i nasiona",
       "carbs_100g": 7.0,
       "fiber_100g": 9.7,
       "sugars_100g": 4.3,
@@ -3624,7 +3624,7 @@
       "id": "p_migdaly",
       "name": "Migdały",
       "name_en": "Almonds",
-      "category": "Białko i tłuszcze",
+      "category": "Orzechy i nasiona",
       "carbs_100g": 9.1,
       "fiber_100g": 12.5,
       "sugars_100g": 4.4,
@@ -3662,7 +3662,7 @@
       "id": "p_pestkidyni",
       "name": "Pestki dyni",
       "name_en": "Pumpkin seeds",
-      "category": "Białko i tłuszcze",
+      "category": "Orzechy i nasiona",
       "carbs_100g": 4.7,
       "fiber_100g": 6.0,
       "sugars_100g": 1.4,
@@ -3700,7 +3700,7 @@
       "id": "p_slonecznik",
       "name": "Nasiona słonecznika",
       "name_en": "Sunflower seeds",
-      "category": "Białko i tłuszcze",
+      "category": "Orzechy i nasiona",
       "carbs_100g": 11.4,
       "fiber_100g": 8.6,
       "sugars_100g": 2.6,
@@ -3738,7 +3738,7 @@
       "id": "p_awokado",
       "name": "Awokado",
       "name_en": "Avocado",
-      "category": "Białko i tłuszcze",
+      "category": "Owoce",
       "carbs_100g": 1.8,
       "fiber_100g": 6.7,
       "sugars_100g": 0.7,
@@ -4291,7 +4291,7 @@
       "id": "k_makaronaldente",
       "name": "Makaron pszenny (ugotowany al dente, ok. 8–10 min)",
       "name_en": "Wheat pasta (al dente, about 8–10 min)",
-      "category": "Kasze i ryż",
+      "category": "Makarony",
       "carbs_100g": 25.0,
       "fiber_100g": 1.8,
       "sugars_100g": 0.6,
@@ -4330,7 +4330,7 @@
       "id": "k_makarondlugo",
       "name": "Makaron pszenny (rozgotowany, ok. 15–17 min)",
       "name_en": "Wheat pasta (overcooked, about 15–17 min)",
-      "category": "Kasze i ryż",
+      "category": "Makarony",
       "carbs_100g": 25.0,
       "fiber_100g": 1.8,
       "sugars_100g": 0.6,
@@ -4408,7 +4408,7 @@
       "id": "w_soczewica",
       "name": "Soczewica (zielona/brązowa), gotowana",
       "name_en": "Boiled lentils (green/brown)",
-      "category": "Warzywa",
+      "category": "Strączkowe",
       "carbs_100g": 12.2,
       "fiber_100g": 7.9,
       "sugars_100g": 1.8,
@@ -4501,7 +4501,7 @@
       "id": "k_platkikukurydziane",
       "name": "Płatki kukurydziane (Corn Flakes), na sucho",
       "name_en": "Corn flakes (dry, no milk)",
-      "category": "Kasze i ryż",
+      "category": "Płatki i musli",
       "carbs_100g": 81,
       "fiber_100g": 3.3,
       "sugars_100g": 7.4,
@@ -4589,7 +4589,7 @@
       "id": "w_ciecierzyca",
       "name": "Ciecierzyca ugotowana",
       "name_en": "Boiled chickpeas",
-      "category": "Warzywa",
+      "category": "Strączkowe",
       "carbs_100g": 19.8,
       "fiber_100g": 7.6,
       "sugars_100g": 4.8,
@@ -4638,7 +4638,7 @@
       "id": "w_fasolaczerwona",
       "name": "Fasola czerwona (kidney), gotowana",
       "name_en": "Boiled kidney beans",
-      "category": "Warzywa",
+      "category": "Strączkowe",
       "carbs_100g": 15.4,
       "fiber_100g": 7.4,
       "sugars_100g": 0.3,
@@ -4687,7 +4687,7 @@
       "id": "w_fasolabiala",
       "name": "Fasola biała (haricot), gotowana",
       "name_en": "Boiled haricot beans",
-      "category": "Warzywa",
+      "category": "Strączkowe",
       "carbs_100g": 18.8,
       "fiber_100g": 6.3,
       "sugars_100g": 0.3,
@@ -4736,7 +4736,7 @@
       "id": "w_groch",
       "name": "Groch suchy (cały), gotowany",
       "name_en": "Boiled whole dried peas",
-      "category": "Warzywa",
+      "category": "Strączkowe",
       "carbs_100g": 12.8,
       "fiber_100g": 8.3,
       "sugars_100g": 2.9,
@@ -4784,7 +4784,7 @@
       "id": "k_musli",
       "name": "Musli (z cukrem i suszonymi owocami)",
       "name_en": "Muesli (with sugar and dried fruit)",
-      "category": "Kasze i ryż",
+      "category": "Płatki i musli",
       "carbs_100g": 61.7,
       "fiber_100g": 11.0,
       "sugars_100g": 20.6,
@@ -5557,7 +5557,7 @@
       "id": "p_siemielniane",
       "name": "Siemię lniane",
       "name_en": "Flaxseed",
-      "category": "Mąki i nasiona",
+      "category": "Orzechy i nasiona",
       "carbs_100g": 1.6,
       "fiber_100g": 27.3,
       "sugars_100g": 1.6,
@@ -6139,7 +6139,7 @@
       "id": "p_hummus",
       "name": "Hummus",
       "name_en": "Hummus",
-      "category": "Białko i tłuszcze",
+      "category": "Sosy i dodatki",
       "carbs_100g": 9.5,
       "fiber_100g": 5.5,
       "sugars_100g": 0.6,
@@ -6188,7 +6188,7 @@
       "id": "s_syropklonowy",
       "name": "Syrop klonowy",
       "name_en": "Maple syrup",
-      "category": "Słodycze",
+      "category": "Cukier, miód i dżemy",
       "carbs_100g": 67.0,
       "fiber_100g": 0.0,
       "sugars_100g": 60.5,
@@ -6236,7 +6236,7 @@
       "id": "s_syropagawy",
       "name": "Syrop z agawy",
       "name_en": "Agave syrup",
-      "category": "Słodycze",
+      "category": "Cukier, miód i dżemy",
       "carbs_100g": 76.2,
       "fiber_100g": 0.2,
       "sugars_100g": 68.0,
@@ -6279,6 +6279,3005 @@
         "db": "USDA FDC",
         "id": "170277"
       }
+    },
+    {
+      "id": "o_kaki",
+      "name": "Kaki",
+      "name_en": "Persimmon",
+      "category": "Owoce",
+      "carbs_100g": 15.0,
+      "fiber_100g": 3.6,
+      "sugars_100g": 12.5,
+      "ig": 58,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "persymona",
+        "sharon",
+        "persimmon"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 170
+        }
+      ],
+      "nutrition": {
+        "kcal": 70,
+        "protein": 0.6,
+        "fat": 0.2,
+        "sat_fat": 0.0,
+        "salt": 0.0
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "169941"
+      }
+    },
+    {
+      "id": "o_nektarynka",
+      "name": "Nektarynka",
+      "name_en": "Nectarine",
+      "category": "Owoce",
+      "carbs_100g": 8.9,
+      "fiber_100g": 1.7,
+      "sugars_100g": 7.9,
+      "ig": 56,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "nektarynki",
+        "nectarine",
+        "nectarines"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 140
+        }
+      ],
+      "nutrition": {
+        "kcal": 44,
+        "protein": 1.1,
+        "fat": 0.3,
+        "sat_fat": 0.0,
+        "salt": 0.0
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "169914"
+      }
+    },
+    {
+      "id": "o_morela",
+      "name": "Morela (świeża)",
+      "name_en": "Apricot (fresh)",
+      "category": "Owoce",
+      "carbs_100g": 9.1,
+      "fiber_100g": 2.0,
+      "sugars_100g": 9.1,
+      "ig": 58,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "morele",
+        "apricot",
+        "apricots"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 35
+        },
+        {
+          "unit_key": "handful",
+          "qty": 1,
+          "grams": 105
+        }
+      ],
+      "nutrition": {
+        "kcal": 48,
+        "protein": 1.4,
+        "fat": 0.4,
+        "sat_fat": 0.0,
+        "salt": 0.0
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "171697"
+      }
+    },
+    {
+      "id": "o_jezyny",
+      "name": "Jeżyny",
+      "name_en": "Blackberries",
+      "category": "Owoce",
+      "carbs_100g": 4.3,
+      "fiber_100g": 5.3,
+      "sugars_100g": 4.3,
+      "ig": 43,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "jezyny",
+        "jeżyna",
+        "jezyna",
+        "blackberry",
+        "blackberries"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "handful",
+          "qty": 1,
+          "grams": 60
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 144
+        }
+      ],
+      "nutrition": {
+        "kcal": 43,
+        "protein": 1.4,
+        "fat": 0.5,
+        "sat_fat": 0.0,
+        "salt": 0.0
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "173946"
+      }
+    },
+    {
+      "id": "o_figisuszone",
+      "name": "Figi suszone",
+      "name_en": "Dried figs",
+      "category": "Owoce",
+      "carbs_100g": 54.1,
+      "fiber_100g": 9.8,
+      "sugars_100g": 47.9,
+      "ig": 59,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "figa suszona",
+        "figi",
+        "dried figs",
+        "fig"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 8
+        },
+        {
+          "unit_key": "handful",
+          "qty": 1,
+          "grams": 40
+        }
+      ],
+      "nutrition": {
+        "kcal": 249,
+        "protein": 3.3,
+        "fat": 0.9,
+        "sat_fat": 0.1,
+        "salt": 0.03
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "174665"
+      }
+    },
+    {
+      "id": "w_kalarepa",
+      "name": "Kalarepa (surowa)",
+      "name_en": "Kohlrabi (raw)",
+      "category": "Warzywa",
+      "carbs_100g": 2.6,
+      "fiber_100g": 3.6,
+      "sugars_100g": 2.6,
+      "ig": 100,
+      "ig_source": "estimated",
+      "ig_basis": "sugar_profile",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "kalarepka",
+        "kohlrabi"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 135
+        }
+      ],
+      "nutrition": {
+        "kcal": 27,
+        "protein": 1.7,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "salt": 0.05
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "168424"
+      }
+    },
+    {
+      "id": "w_rzodkiewka",
+      "name": "Rzodkiewka",
+      "name_en": "Radish",
+      "category": "Warzywa",
+      "carbs_100g": 1.8,
+      "fiber_100g": 1.6,
+      "sugars_100g": 1.8,
+      "ig": 67,
+      "ig_source": "estimated",
+      "ig_basis": "sugar_profile",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "rzodkiewki",
+        "radish",
+        "radishes"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "handful",
+          "qty": 1,
+          "grams": 50
+        }
+      ],
+      "nutrition": {
+        "kcal": 16,
+        "protein": 0.7,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "salt": 0.1
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "169276"
+      }
+    },
+    {
+      "id": "w_kapustakiszona",
+      "name": "Kapusta kiszona",
+      "name_en": "Sauerkraut",
+      "category": "Warzywa",
+      "carbs_100g": 1.4,
+      "fiber_100g": 2.9,
+      "sugars_100g": 1.4,
+      "ig": 98,
+      "ig_source": "estimated",
+      "ig_basis": "sugar_profile",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "kiszona kapusta",
+        "kiszonka",
+        "sauerkraut"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 100
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 20
+        }
+      ],
+      "nutrition": {
+        "kcal": 19,
+        "protein": 0.9,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "salt": 1.65
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "169279"
+      }
+    },
+    {
+      "id": "w_ogorekkiszony",
+      "name": "Ogórek kiszony",
+      "name_en": "Pickled cucumber",
+      "category": "Warzywa",
+      "carbs_100g": 1.4,
+      "fiber_100g": 1.0,
+      "sugars_100g": 1.1,
+      "ig": 45,
+      "ig_source": "estimated",
+      "ig_basis": "sugar_profile",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "ogórki kiszone",
+        "ogorki kiszone",
+        "kiszony ogórek",
+        "korniszon",
+        "pickle",
+        "pickles"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 70
+        }
+      ],
+      "nutrition": {
+        "kcal": 12,
+        "protein": 0.5,
+        "fat": 0.3,
+        "sat_fat": 0.1,
+        "salt": 2.02
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "168558"
+      }
+    },
+    {
+      "id": "k_makaronryzowy",
+      "name": "Makaron ryżowy (ugotowany)",
+      "name_en": "Rice noodles (cooked)",
+      "category": "Makarony",
+      "carbs_100g": 23.0,
+      "fiber_100g": 1.0,
+      "sugars_100g": 0.0,
+      "ig": 66,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "makaron ryzowy",
+        "ryżowy makaron",
+        "vermicelli",
+        "rice noodles",
+        "rice noodle"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "serving_plate",
+          "qty": 1,
+          "grams": 150
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 176
+        }
+      ],
+      "nutrition": {
+        "kcal": 108,
+        "protein": 1.8,
+        "fat": 0.2,
+        "sat_fat": 0.0,
+        "salt": 0.05
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "168914"
+      }
+    },
+    {
+      "id": "k_makaronpelnoziarnisty",
+      "name": "Makaron pełnoziarnisty (ugotowany)",
+      "name_en": "Whole-grain pasta (cooked)",
+      "category": "Makarony",
+      "carbs_100g": 26.9,
+      "fiber_100g": 4.6,
+      "sugars_100g": 0.9,
+      "ig": 60,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "makaron razowy",
+        "razowy makaron",
+        "makaron pelnoziarnisty",
+        "wholegrain pasta",
+        "wholemeal pasta"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "serving_plate",
+          "qty": 1,
+          "grams": 150
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 140
+        }
+      ],
+      "nutrition": {
+        "kcal": 159,
+        "protein": 5.8,
+        "fat": 1.5,
+        "sat_fat": 0.2,
+        "salt": 0.02
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "168916"
+      }
+    },
+    {
+      "id": "k_makaorkiszowa",
+      "name": "Mąka orkiszowa (surowa)",
+      "name_en": "Spelt flour (raw)",
+      "category": "Mąki i nasiona",
+      "carbs_100g": 59.5,
+      "fiber_100g": 10.7,
+      "sugars_100g": 6.8,
+      "ig": 61,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "maka orkiszowa",
+        "orkisz",
+        "spelt flour"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 10
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 120
+        }
+      ],
+      "nutrition": {
+        "kcal": 338,
+        "protein": 14.6,
+        "fat": 2.4,
+        "sat_fat": 0.4,
+        "salt": 0.02
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "169745"
+      }
+    },
+    {
+      "id": "k_makagryczana",
+      "name": "Mąka gryczana (surowa)",
+      "name_en": "Buckwheat flour (raw)",
+      "category": "Mąki i nasiona",
+      "carbs_100g": 60.6,
+      "fiber_100g": 10.0,
+      "sugars_100g": 2.6,
+      "ig": 60,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "maka gryczana",
+        "gryka",
+        "buckwheat flour"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 10
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 120
+        }
+      ],
+      "nutrition": {
+        "kcal": 335,
+        "protein": 12.6,
+        "fat": 3.1,
+        "sat_fat": 0.7,
+        "salt": 0.03
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "170687"
+      }
+    },
+    {
+      "id": "k_makaryzowa",
+      "name": "Mąka ryżowa (surowa)",
+      "name_en": "Rice flour (raw)",
+      "category": "Mąki i nasiona",
+      "carbs_100g": 77.7,
+      "fiber_100g": 2.4,
+      "sugars_100g": 0.1,
+      "ig": 66,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "maka ryzowa",
+        "rice flour"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 10
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 150
+        }
+      ],
+      "nutrition": {
+        "kcal": 366,
+        "protein": 6.0,
+        "fat": 1.4,
+        "sat_fat": 0.4,
+        "salt": 0.0
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "169714"
+      }
+    },
+    {
+      "id": "k_makakukurydziana",
+      "name": "Mąka kukurydziana (surowa)",
+      "name_en": "Corn flour (raw)",
+      "category": "Mąki i nasiona",
+      "carbs_100g": 69.6,
+      "fiber_100g": 7.3,
+      "sugars_100g": 0.6,
+      "ig": 64,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "maka kukurydziana",
+        "kukurydziana",
+        "corn flour",
+        "cornflour"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 8
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 120
+        }
+      ],
+      "nutrition": {
+        "kcal": 361,
+        "protein": 6.9,
+        "fat": 3.9,
+        "sat_fat": 0.5,
+        "salt": 0.01
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "170290"
+      }
+    },
+    {
+      "id": "b_graham",
+      "name": "Chleb graham (pszenny razowy)",
+      "name_en": "Wholemeal wheat bread",
+      "category": "Pieczywo",
+      "carbs_100g": 36.7,
+      "fiber_100g": 6.0,
+      "sugars_100g": 4.3,
+      "ig": 54,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "graham",
+        "chleb razowy pszenny",
+        "bułka grahamka",
+        "grahamka",
+        "wholemeal bread",
+        "whole wheat bread"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "slice_bread",
+          "qty": 1,
+          "grams": 30
+        }
+      ],
+      "nutrition": {
+        "kcal": 252,
+        "protein": 12.5,
+        "fat": 3.5,
+        "sat_fat": 0.7,
+        "salt": 1.14
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "172688"
+      }
+    },
+    {
+      "id": "n_smietana",
+      "name": "Śmietana kwaśna",
+      "name_en": "Soured cream",
+      "category": "Nabiał",
+      "carbs_100g": 4.6,
+      "fiber_100g": 0.0,
+      "sugars_100g": 3.4,
+      "ig": 27,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "smietana",
+        "śmietana 18",
+        "sour cream",
+        "soured cream"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 15
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 50
+        }
+      ],
+      "nutrition": {
+        "kcal": 198,
+        "protein": 2.4,
+        "fat": 19.4,
+        "sat_fat": 10.1,
+        "salt": 0.08
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "171257",
+        "approx": true
+      }
+    },
+    {
+      "id": "n_skyr",
+      "name": "Skyr naturalny",
+      "name_en": "Plain skyr",
+      "category": "Nabiał",
+      "carbs_100g": 3.6,
+      "fiber_100g": 0.0,
+      "sugars_100g": 3.6,
+      "ig": 48,
+      "ig_source": "estimated",
+      "ig_basis": "lactose",
+      "default_portion": 1,
+      "barcode": null,
+      "source_doi": "10.1093/ajcn/74.1.96",
+      "source_year": 2001,
+      "iso_method": false,
+      "synonyms": [
+        "skyr",
+        "islandzki jogurt",
+        "jogurt skyr",
+        "icelandic yoghurt"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 150
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 20
+        }
+      ],
+      "nutrition": {
+        "kcal": 61,
+        "protein": 10.3,
+        "fat": 0.4,
+        "sat_fat": 0.1,
+        "salt": 0.09
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "330137",
+        "approx": true
+      }
+    },
+    {
+      "id": "p_orzeszki",
+      "name": "Orzeszki ziemne",
+      "name_en": "Peanuts",
+      "category": "Orzechy i nasiona",
+      "carbs_100g": 7.6,
+      "fiber_100g": 8.5,
+      "sugars_100g": 4.7,
+      "ig": 62,
+      "ig_source": "estimated",
+      "ig_basis": "sugar_profile",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "orzechy ziemne",
+        "arachidy",
+        "peanuts",
+        "peanut"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "handful",
+          "qty": 1,
+          "grams": 30
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 10
+        }
+      ],
+      "nutrition": {
+        "kcal": 567,
+        "protein": 25.8,
+        "fat": 49.2,
+        "sat_fat": 6.3,
+        "salt": 0.05
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "172430"
+      }
+    },
+    {
+      "id": "p_maslorzechowe",
+      "name": "Masło orzechowe",
+      "name_en": "Peanut butter",
+      "category": "Orzechy i nasiona",
+      "carbs_100g": 17.3,
+      "fiber_100g": 5.0,
+      "sugars_100g": 10.5,
+      "ig": 56,
+      "ig_source": "estimated",
+      "ig_basis": "sugar_profile",
+      "default_portion": 2,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "maslo orzechowe",
+        "peanut butter"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "teaspoon",
+          "qty": 1,
+          "grams": 5
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 16
+        }
+      ],
+      "nutrition": {
+        "kcal": 598,
+        "protein": 22.2,
+        "fat": 51.4,
+        "sat_fat": 10.3,
+        "salt": 1.07
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "174266"
+      }
+    },
+    {
+      "id": "p_nerkowce",
+      "name": "Orzechy nerkowca",
+      "name_en": "Cashews",
+      "category": "Orzechy i nasiona",
+      "carbs_100g": 26.9,
+      "fiber_100g": 3.3,
+      "sugars_100g": 5.9,
+      "ig": 34,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "nerkowce",
+        "orzech nerkowca",
+        "cashew",
+        "cashews"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "handful",
+          "qty": 1,
+          "grams": 30
+        }
+      ],
+      "nutrition": {
+        "kcal": 553,
+        "protein": 18.2,
+        "fat": 43.9,
+        "sat_fat": 7.8,
+        "salt": 0.03
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "170162"
+      }
+    },
+    {
+      "id": "p_majonez",
+      "name": "Majonez",
+      "name_en": "Mayonnaise",
+      "category": "Sosy i dodatki",
+      "carbs_100g": 0.6,
+      "fiber_100g": 0.0,
+      "sugars_100g": 0.6,
+      "ig": 100,
+      "ig_source": "estimated",
+      "ig_basis": "glucose_upper_bound",
+      "default_portion": 2,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "majonez",
+        "mayo",
+        "mayonnaise"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "teaspoon",
+          "qty": 1,
+          "grams": 5
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 14
+        }
+      ],
+      "nutrition": {
+        "kcal": 680,
+        "protein": 1.0,
+        "fat": 74.9,
+        "sat_fat": 11.7,
+        "salt": 1.59
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "171009"
+      }
+    },
+    {
+      "id": "d_kawa",
+      "name": "Kawa czarna (parzona)",
+      "name_en": "Black coffee (brewed)",
+      "category": "Napoje",
+      "carbs_100g": 0,
+      "fiber_100g": 0.0,
+      "sugars_100g": 0,
+      "ig": 0,
+      "ig_source": "estimated",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "kawa",
+        "czarna kawa",
+        "espresso",
+        "coffee",
+        "black coffee"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "mug",
+          "qty": 1,
+          "grams": 250
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 150
+        }
+      ],
+      "nutrition": {
+        "kcal": 1,
+        "protein": 0.1,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "salt": 0.01
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "171890"
+      }
+    },
+    {
+      "id": "w_baklazan",
+      "name": "Bakłażan (surowy)",
+      "name_en": "Aubergine (raw)",
+      "category": "Warzywa",
+      "carbs_100g": 2.9,
+      "fiber_100g": 3.0,
+      "sugars_100g": 2.9,
+      "ig": 62,
+      "ig_source": "estimated",
+      "ig_basis": "sugar_profile",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "baklazan",
+        "bakłażany",
+        "eggplant",
+        "aubergine"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 300
+        }
+      ],
+      "nutrition": {
+        "kcal": 25,
+        "protein": 1.0,
+        "fat": 0.2,
+        "sat_fat": 0.0,
+        "salt": 0.01
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "169228"
+      }
+    },
+    {
+      "id": "w_fasolkaszparagowa",
+      "name": "Fasolka szparagowa (surowa)",
+      "name_en": "Green beans (raw)",
+      "category": "Warzywa",
+      "carbs_100g": 4.3,
+      "fiber_100g": 2.7,
+      "sugars_100g": 3.3,
+      "ig": 67,
+      "ig_source": "estimated",
+      "ig_basis": "sugar_profile",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "fasolka",
+        "fasola szparagowa",
+        "green beans",
+        "string beans"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "handful",
+          "qty": 1,
+          "grams": 80
+        }
+      ],
+      "nutrition": {
+        "kcal": 31,
+        "protein": 1.8,
+        "fat": 0.2,
+        "sat_fat": 0.1,
+        "salt": 0.02
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "169961"
+      }
+    },
+    {
+      "id": "w_brukselka",
+      "name": "Brukselka (surowa)",
+      "name_en": "Brussels sprouts (raw)",
+      "category": "Warzywa",
+      "carbs_100g": 5.1,
+      "fiber_100g": 3.8,
+      "sugars_100g": 2.2,
+      "ig": 25,
+      "ig_source": "estimated",
+      "ig_basis": "sugar_profile",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "brukselki",
+        "brussels sprouts",
+        "sprouts"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "handful",
+          "qty": 1,
+          "grams": 80
+        }
+      ],
+      "nutrition": {
+        "kcal": 43,
+        "protein": 3.4,
+        "fat": 0.3,
+        "sat_fat": 0.1,
+        "salt": 0.06
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "170383"
+      }
+    },
+    {
+      "id": "w_jarmuz",
+      "name": "Jarmuż (surowy)",
+      "name_en": "Kale (raw)",
+      "category": "Warzywa",
+      "carbs_100g": 0.3,
+      "fiber_100g": 4.1,
+      "sugars_100g": 0.3,
+      "ig": 100,
+      "ig_source": "estimated",
+      "ig_basis": "glucose_upper_bound",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "jarmuz",
+        "kale"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "handful",
+          "qty": 1,
+          "grams": 30
+        }
+      ],
+      "nutrition": {
+        "kcal": 35,
+        "protein": 2.9,
+        "fat": 1.5,
+        "sat_fat": 0.2,
+        "salt": 0.13
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "168421"
+      }
+    },
+    {
+      "id": "w_kapustaczerwona",
+      "name": "Kapusta czerwona (surowa)",
+      "name_en": "Red cabbage (raw)",
+      "category": "Warzywa",
+      "carbs_100g": 5.3,
+      "fiber_100g": 2.1,
+      "sugars_100g": 3.8,
+      "ig": 45,
+      "ig_source": "estimated",
+      "ig_basis": "sugar_profile",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "czerwona kapusta",
+        "red cabbage"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 70
+        },
+        {
+          "unit_key": "plate",
+          "qty": 1,
+          "grams": 150
+        }
+      ],
+      "nutrition": {
+        "kcal": 31,
+        "protein": 1.4,
+        "fat": 0.2,
+        "sat_fat": 0.0,
+        "salt": 0.07
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "169977"
+      }
+    },
+    {
+      "id": "o_melon",
+      "name": "Melon",
+      "name_en": "Cantaloupe melon",
+      "category": "Owoce",
+      "carbs_100g": 7.3,
+      "fiber_100g": 0.9,
+      "sugars_100g": 7.3,
+      "ig": 53,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "melony",
+        "cantaloupe",
+        "rockmelon"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "slice_round",
+          "qty": 1,
+          "grams": 150
+        }
+      ],
+      "nutrition": {
+        "kcal": 34,
+        "protein": 0.8,
+        "fat": 0.2,
+        "sat_fat": 0.1,
+        "salt": 0.04
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "169092"
+      }
+    },
+    {
+      "id": "o_porzeczki",
+      "name": "Porzeczki czerwone",
+      "name_en": "Redcurrants",
+      "category": "Owoce",
+      "carbs_100g": 9.5,
+      "fiber_100g": 4.3,
+      "sugars_100g": 7.4,
+      "ig": 53,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "porzeczka",
+        "czerwona porzeczka",
+        "redcurrants",
+        "red currants"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "handful",
+          "qty": 1,
+          "grams": 60
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 112
+        }
+      ],
+      "nutrition": {
+        "kcal": 56,
+        "protein": 1.4,
+        "fat": 0.2,
+        "sat_fat": 0.0,
+        "salt": 0.0
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "173964"
+      }
+    },
+    {
+      "id": "p_parowki",
+      "name": "Parówki wieprzowe",
+      "name_en": "Pork frankfurters",
+      "category": "Mięso i wędliny",
+      "carbs_100g": 0.2,
+      "fiber_100g": 0.1,
+      "sugars_100g": 0.0,
+      "ig": 100,
+      "ig_source": "estimated",
+      "ig_basis": "glucose_upper_bound",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "parówka",
+        "parowki",
+        "hot dog",
+        "frankfurter",
+        "frankfurters"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 50
+        }
+      ],
+      "nutrition": {
+        "kcal": 269,
+        "protein": 12.8,
+        "fat": 23.7,
+        "sat_fat": 8.7,
+        "salt": 2.04
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "172964"
+      }
+    },
+    {
+      "id": "p_watrobadrobiowa",
+      "name": "Wątróbka drobiowa (gotowana)",
+      "name_en": "Chicken liver (cooked)",
+      "category": "Mięso i wędliny",
+      "carbs_100g": 0.9,
+      "fiber_100g": 0.0,
+      "sugars_100g": 0.0,
+      "ig": 100,
+      "ig_source": "estimated",
+      "ig_basis": "glucose_upper_bound",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "wątroba",
+        "watroba",
+        "wątróbka",
+        "watrobka",
+        "chicken liver"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 100
+        }
+      ],
+      "nutrition": {
+        "kcal": 167,
+        "protein": 24.5,
+        "fat": 6.5,
+        "sat_fat": 2.1,
+        "salt": 0.19
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "171061"
+      }
+    },
+    {
+      "id": "p_loswedzony",
+      "name": "Łosoś wędzony",
+      "name_en": "Smoked salmon",
+      "category": "Ryby i owoce morza",
+      "carbs_100g": 0,
+      "fiber_100g": 0.0,
+      "sugars_100g": 0,
+      "ig": 0,
+      "ig_source": "estimated",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "losos wedzony",
+        "łosoś wędzony na zimno",
+        "lox",
+        "smoked salmon"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "slice_round",
+          "qty": 1,
+          "grams": 20
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 50
+        }
+      ],
+      "nutrition": {
+        "kcal": 117,
+        "protein": 18.3,
+        "fat": 4.3,
+        "sat_fat": 0.9,
+        "salt": 1.68
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "173687"
+      }
+    },
+    {
+      "id": "p_sledzmarynowany",
+      "name": "Śledź marynowany",
+      "name_en": "Pickled herring",
+      "category": "Ryby i owoce morza",
+      "carbs_100g": 9.6,
+      "fiber_100g": 0.0,
+      "sugars_100g": 7.7,
+      "ig": 31,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "sledz",
+        "śledzie",
+        "sledzie",
+        "matjas",
+        "herring"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 50
+        }
+      ],
+      "nutrition": {
+        "kcal": 262,
+        "protein": 14.2,
+        "fat": 18.0,
+        "sat_fat": 2.4,
+        "salt": 2.18
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "175118"
+      }
+    },
+    {
+      "id": "p_szynka",
+      "name": "Szynka wieprzowa (plastry)",
+      "name_en": "Sliced ham",
+      "category": "Mięso i wędliny",
+      "carbs_100g": 2.3,
+      "fiber_100g": 1.3,
+      "sugars_100g": 1.0,
+      "ig": 42,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "szynka",
+        "szynka gotowana",
+        "wędlina",
+        "wedlina",
+        "ham"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "slice_round",
+          "qty": 1,
+          "grams": 15
+        }
+      ],
+      "nutrition": {
+        "kcal": 164,
+        "protein": 16.6,
+        "fat": 8.8,
+        "sat_fat": 0.5,
+        "salt": 2.04
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "173864"
+      }
+    },
+    {
+      "id": "p_kielbasa",
+      "name": "Kiełbasa wędzona",
+      "name_en": "Smoked sausage",
+      "category": "Mięso i wędliny",
+      "carbs_100g": 2.0,
+      "fiber_100g": 0.0,
+      "sugars_100g": 0.0,
+      "ig": 35,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "kielbasa",
+        "kiełbasa polska",
+        "kiełbasa śląska",
+        "kielbasa slaska",
+        "sausage",
+        "polish sausage"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 100
+        }
+      ],
+      "nutrition": {
+        "kcal": 301,
+        "protein": 12.1,
+        "fat": 26.6,
+        "sat_fat": 9.2,
+        "salt": 2.12
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "172954"
+      }
+    },
+    {
+      "id": "n_parmezan",
+      "name": "Parmezan",
+      "name_en": "Parmesan",
+      "category": "Nabiał",
+      "carbs_100g": 3.2,
+      "fiber_100g": 0.0,
+      "sugars_100g": 3.2,
+      "ig": 48,
+      "ig_source": "estimated",
+      "ig_basis": "lactose",
+      "default_portion": 1,
+      "barcode": null,
+      "source_doi": "10.1093/ajcn/74.1.96",
+      "source_year": 2001,
+      "iso_method": false,
+      "synonyms": [
+        "ser parmezan",
+        "grana padano",
+        "parmesan"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 5
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 30
+        }
+      ],
+      "nutrition": {
+        "kcal": 392,
+        "protein": 35.8,
+        "fat": 25.0,
+        "sat_fat": 14.9,
+        "salt": 2.94
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "170848",
+        "approx": true
+      }
+    },
+    {
+      "id": "b_chalka",
+      "name": "Chałka",
+      "name_en": "Egg bread (challah)",
+      "category": "Pieczywo",
+      "carbs_100g": 45.5,
+      "fiber_100g": 2.3,
+      "sugars_100g": 1.8,
+      "ig": 59,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "challah",
+        "chalka",
+        "chałka drożdżowa",
+        "egg bread"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "slice_bread",
+          "qty": 1,
+          "grams": 40
+        }
+      ],
+      "nutrition": {
+        "kcal": 287,
+        "protein": 9.5,
+        "fat": 6.0,
+        "sat_fat": 1.6,
+        "salt": 0.95
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "172673"
+      }
+    },
+    {
+      "id": "b_bulkatarta",
+      "name": "Bułka tarta",
+      "name_en": "Breadcrumbs",
+      "category": "Pieczywo",
+      "carbs_100g": 67.5,
+      "fiber_100g": 4.5,
+      "sugars_100g": 6.2,
+      "ig": 60,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "bulka tarta",
+        "tarta bułka",
+        "breadcrumbs"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 10
+        }
+      ],
+      "nutrition": {
+        "kcal": 395,
+        "protein": 13.4,
+        "fat": 5.3,
+        "sat_fat": 1.2,
+        "salt": 1.83
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "174928"
+      }
+    },
+    {
+      "id": "s_chipsy",
+      "name": "Chipsy ziemniaczane",
+      "name_en": "Potato crisps",
+      "category": "Słodycze",
+      "carbs_100g": 50.7,
+      "fiber_100g": 3.1,
+      "sugars_100g": 0.3,
+      "ig": 47,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "chipsy",
+        "chips",
+        "crisps",
+        "potato chips"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "handful",
+          "qty": 1,
+          "grams": 30
+        },
+        {
+          "unit_key": "pack_small",
+          "qty": 1,
+          "grams": 50
+        }
+      ],
+      "nutrition": {
+        "kcal": 532,
+        "protein": 6.4,
+        "fat": 34.0,
+        "sat_fat": 3.4,
+        "salt": 1.32
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "169677"
+      }
+    },
+    {
+      "id": "s_sernik",
+      "name": "Sernik",
+      "name_en": "Cheesecake",
+      "category": "Słodycze",
+      "carbs_100g": 25.1,
+      "fiber_100g": 0.4,
+      "sugars_100g": 21.8,
+      "ig": 36,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "sernik wiedeński",
+        "sernik krakowski",
+        "cheesecake"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "chunk",
+          "qty": 1,
+          "grams": 120
+        }
+      ],
+      "nutrition": {
+        "kcal": 321,
+        "protein": 5.5,
+        "fat": 22.5,
+        "sat_fat": 9.9,
+        "salt": 1.1
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "172711"
+      }
+    },
+    {
+      "id": "s_szarlotka",
+      "name": "Szarlotka",
+      "name_en": "Apple pie",
+      "category": "Słodycze",
+      "carbs_100g": 32.4,
+      "fiber_100g": 1.6,
+      "sugars_100g": 15.7,
+      "ig": 52,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "ciasto z jabłkami",
+        "apple pie"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "chunk",
+          "qty": 1,
+          "grams": 120
+        }
+      ],
+      "nutrition": {
+        "kcal": 237,
+        "protein": 1.9,
+        "fat": 11.0,
+        "sat_fat": 3.8,
+        "salt": 0.5
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "175011"
+      }
+    },
+    {
+      "id": "s_herbatniki",
+      "name": "Herbatniki maślane",
+      "name_en": "Butter biscuits",
+      "category": "Słodycze",
+      "carbs_100g": 68.1,
+      "fiber_100g": 0.8,
+      "sugars_100g": 20.2,
+      "ig": 55,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 2,
+      "barcode": null,
+      "synonyms": [
+        "ciastka",
+        "ciasteczka",
+        "herbatnik",
+        "biscuits",
+        "cookies"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 8
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 40
+        }
+      ],
+      "nutrition": {
+        "kcal": 467,
+        "protein": 6.1,
+        "fat": 18.8,
+        "sat_fat": 11.1,
+        "salt": 0.71
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "174950"
+      }
+    },
+    {
+      "id": "d_herbata",
+      "name": "Herbata czarna (parzona)",
+      "name_en": "Black tea (brewed)",
+      "category": "Napoje",
+      "carbs_100g": 0.3,
+      "fiber_100g": 0.0,
+      "sugars_100g": 0.0,
+      "ig": 100,
+      "ig_source": "estimated",
+      "ig_basis": "glucose_upper_bound",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "herbata",
+        "czarna herbata",
+        "tea",
+        "black tea"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "mug",
+          "qty": 1,
+          "grams": 250
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 150
+        }
+      ],
+      "nutrition": {
+        "kcal": 1,
+        "protein": 0.0,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "salt": 0.01
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "173227"
+      }
+    },
+    {
+      "id": "d_energetyk",
+      "name": "Napój energetyczny",
+      "name_en": "Energy drink",
+      "category": "Napoje",
+      "carbs_100g": 11.3,
+      "fiber_100g": 0.0,
+      "sugars_100g": 10.4,
+      "ig": 60,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "energetyk",
+        "energy drink",
+        "red bull"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "can",
+          "qty": 1,
+          "grams": 250
+        }
+      ],
+      "nutrition": {
+        "kcal": 45,
+        "protein": 0.0,
+        "fat": 0.0,
+        "sat_fat": 0.0,
+        "salt": 0.03
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "174108"
+      }
+    },
+    {
+      "id": "d_migdalowy",
+      "name": "Napój migdałowy (niesłodzony)",
+      "name_en": "Almond drink (unsweetened)",
+      "category": "Napoje",
+      "carbs_100g": 1.1,
+      "fiber_100g": 0.2,
+      "sugars_100g": 0.8,
+      "ig": 35,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "mleko migdałowe",
+        "mleko migdalowe",
+        "almond milk"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 250
+        }
+      ],
+      "nutrition": {
+        "kcal": 15,
+        "protein": 0.4,
+        "fat": 1.0,
+        "sat_fat": 0.1,
+        "salt": 0.18
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "174832"
+      }
+    },
+    {
+      "id": "w_ketchup",
+      "name": "Ketchup",
+      "name_en": "Ketchup",
+      "category": "Sosy i dodatki",
+      "carbs_100g": 27.1,
+      "fiber_100g": 0.3,
+      "sugars_100g": 21.3,
+      "ig": 63,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 2,
+      "barcode": null,
+      "synonyms": [
+        "keczup",
+        "catsup"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "teaspoon",
+          "qty": 1,
+          "grams": 5
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 17
+        }
+      ],
+      "nutrition": {
+        "kcal": 101,
+        "protein": 1.0,
+        "fat": 0.1,
+        "sat_fat": 0.0,
+        "salt": 2.27
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "168556"
+      }
+    },
+    {
+      "id": "w_musztarda",
+      "name": "Musztarda",
+      "name_en": "Mustard",
+      "category": "Sosy i dodatki",
+      "carbs_100g": 1.8,
+      "fiber_100g": 4.0,
+      "sugars_100g": 0.9,
+      "ig": 35,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "musztarda sarepska",
+        "mustard"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "teaspoon",
+          "qty": 1,
+          "grams": 5
+        }
+      ],
+      "nutrition": {
+        "kcal": 60,
+        "protein": 3.7,
+        "fat": 3.3,
+        "sat_fat": 0.2,
+        "salt": 2.76
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "172234"
+      }
+    },
+    {
+      "id": "w_sospomidorowy",
+      "name": "Sos pomidorowy (passata)",
+      "name_en": "Tomato sauce (passata)",
+      "category": "Sosy i dodatki",
+      "carbs_100g": 3.8,
+      "fiber_100g": 1.5,
+      "sugars_100g": 3.6,
+      "ig": 49,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "passata",
+        "sos pomidorowy",
+        "przecier pomidorowy",
+        "tomato sauce",
+        "tomato puree"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 15
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 100
+        }
+      ],
+      "nutrition": {
+        "kcal": 24,
+        "protein": 1.2,
+        "fat": 0.3,
+        "sat_fat": 0.0,
+        "salt": 1.19
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "170054"
+      }
+    },
+    {
+      "id": "p_tofu",
+      "name": "Tofu (twarde)",
+      "name_en": "Firm tofu",
+      "category": "Strączkowe",
+      "carbs_100g": 0.5,
+      "fiber_100g": 2.3,
+      "sugars_100g": 0,
+      "ig": 100,
+      "ig_source": "estimated",
+      "ig_basis": "glucose_upper_bound",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "tofu naturalne",
+        "sojowy ser",
+        "bean curd"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 100
+        }
+      ],
+      "nutrition": {
+        "kcal": 144,
+        "protein": 17.3,
+        "fat": 8.7,
+        "sat_fat": 1.3,
+        "salt": 0.04
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "172475"
+      }
+    },
+    {
+      "id": "k_ryzdziki",
+      "name": "Ryż dziki gotowany",
+      "name_en": "Boiled wild rice",
+      "category": "Kasze i ryż",
+      "carbs_100g": 19.5,
+      "fiber_100g": 1.8,
+      "sugars_100g": 0.7,
+      "ig": 61,
+      "ig_source": "estimated",
+      "ig_basis": "composition",
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "dziki ryż",
+        "ryz dziki",
+        "wild rice"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 164
+        },
+        {
+          "unit_key": "serving_plate",
+          "qty": 1,
+          "grams": 150
+        }
+      ],
+      "nutrition": {
+        "kcal": 101,
+        "protein": 4.0,
+        "fat": 0.3,
+        "sat_fat": 0.0,
+        "salt": 0.01
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "168897"
+      }
+    },
+    {
+      "id": "p_pistacje",
+      "name": "Pistacje",
+      "name_en": "Pistachios",
+      "category": "Orzechy i nasiona",
+      "carbs_100g": 16.6,
+      "fiber_100g": 10.6,
+      "sugars_100g": 7.7,
+      "ig": 38,
+      "ig_source": "estimated",
+      "ig_basis": "sugar_profile",
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "pistacja",
+        "pistachio",
+        "pistachios"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "handful",
+          "qty": 1,
+          "grams": 30
+        }
+      ],
+      "nutrition": {
+        "kcal": 560,
+        "protein": 20.2,
+        "fat": 45.3,
+        "sat_fat": 5.9,
+        "salt": 0.0
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "170184"
+      }
+    },
+    {
+      "id": "r_owsianka",
+      "name": "Owsianka na mleku",
+      "name_en": "Porridge made with milk",
+      "category": "Dania",
+      "carbs_100g": 14.2,
+      "fiber_100g": 1.7,
+      "sugars_100g": 4.3,
+      "ig": 54,
+      "ig_source": "estimated",
+      "ig_basis": "dish",
+      "ig_exact": 54.47,
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "owsianka",
+        "płatki owsiane na mleku",
+        "porridge",
+        "oatmeal"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "bowl",
+          "qty": 1,
+          "grams": 240.0
+        }
+      ],
+      "nutrition": {
+        "kcal": 105,
+        "protein": 5.1,
+        "fat": 2.6,
+        "sat_fat": 1.1,
+        "salt": 0.08
+      },
+      "recipe": [
+        {
+          "id": "k_owsiane",
+          "grams": 40
+        },
+        {
+          "id": "n_mleko",
+          "grams": 200
+        }
+      ]
+    },
+    {
+      "id": "r_nalesniki",
+      "name": "Naleśniki (2 sztuki)",
+      "name_en": "Pancakes (2)",
+      "category": "Dania",
+      "carbs_100g": 23.9,
+      "fiber_100g": 0.8,
+      "sugars_100g": 2.7,
+      "ig": 61,
+      "ig_source": "estimated",
+      "ig_basis": "dish",
+      "ig_exact": 60.98,
+      "default_portion": 2,
+      "barcode": null,
+      "synonyms": [
+        "nalesniki",
+        "naleśnik",
+        "nalesnik",
+        "crepes",
+        "pancakes"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 78.0
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 156.0
+        }
+      ],
+      "nutrition": {
+        "kcal": 190,
+        "protein": 6.7,
+        "fat": 6.8,
+        "sat_fat": 1.4,
+        "salt": 0.1
+      },
+      "recipe": [
+        {
+          "id": "k_makapszenna",
+          "grams": 45
+        },
+        {
+          "id": "n_mleko",
+          "grams": 80
+        },
+        {
+          "id": "p_jajko",
+          "grams": 25
+        },
+        {
+          "id": "p_olejrzepakowy",
+          "grams": 6
+        }
+      ]
+    },
+    {
+      "id": "r_plackiziemniaczane",
+      "name": "Placki ziemniaczane (3 sztuki)",
+      "name_en": "Potato pancakes (3)",
+      "category": "Dania",
+      "carbs_100g": 18.4,
+      "fiber_100g": 1.6,
+      "sugars_100g": 1.0,
+      "ig": 72,
+      "ig_source": "estimated",
+      "ig_basis": "dish",
+      "ig_exact": 71.97,
+      "default_portion": 2,
+      "barcode": null,
+      "synonyms": [
+        "placki ziemniaczane",
+        "placek ziemniaczany",
+        "babka ziemniaczana",
+        "potato pancakes",
+        "latkes"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 62.0
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 185.0
+        }
+      ],
+      "nutrition": {
+        "kcal": 178,
+        "protein": 3.1,
+        "fat": 9.1,
+        "sat_fat": 0.9,
+        "salt": 0.03
+      },
+      "recipe": [
+        {
+          "id": "w_ziemniak",
+          "grams": 130
+        },
+        {
+          "id": "w_cebula",
+          "grams": 10
+        },
+        {
+          "id": "p_jajko",
+          "grams": 15
+        },
+        {
+          "id": "k_makapszenna",
+          "grams": 15
+        },
+        {
+          "id": "p_olejrzepakowy",
+          "grams": 15
+        }
+      ]
+    },
+    {
+      "id": "r_pierogiruskie",
+      "name": "Pierogi ruskie (5 sztuk)",
+      "name_en": "Pierogi with potato and cheese (5)",
+      "category": "Dania",
+      "carbs_100g": 27.5,
+      "fiber_100g": 1.5,
+      "sugars_100g": 1.2,
+      "ig": 66,
+      "ig_source": "estimated",
+      "ig_basis": "dish",
+      "ig_exact": 66.07,
+      "default_portion": 2,
+      "barcode": null,
+      "synonyms": [
+        "pierogi",
+        "pierogi ruskie",
+        "pieróg",
+        "pierogi z serem i ziemniakami",
+        "dumplings"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 32.0
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 160.0
+        }
+      ],
+      "nutrition": {
+        "kcal": 181,
+        "protein": 6.2,
+        "fat": 4.1,
+        "sat_fat": 0.8,
+        "salt": 0.02
+      },
+      "recipe": [
+        {
+          "id": "k_makapszenna",
+          "grams": 45
+        },
+        {
+          "id": "water",
+          "grams": 22
+        },
+        {
+          "id": "w_ziemniak",
+          "grams": 55
+        },
+        {
+          "id": "p_twarog",
+          "grams": 25
+        },
+        {
+          "id": "w_cebula",
+          "grams": 8
+        },
+        {
+          "id": "p_olejrzepakowy",
+          "grams": 5
+        }
+      ]
+    },
+    {
+      "id": "r_bigos",
+      "name": "Bigos",
+      "name_en": "Bigos (hunter's stew)",
+      "category": "Dania",
+      "carbs_100g": 1.5,
+      "fiber_100g": 1.9,
+      "sugars_100g": 1.4,
+      "ig": 73,
+      "ig_source": "estimated",
+      "ig_basis": "dish",
+      "ig_exact": 73.22,
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "bigos myśliwski",
+        "kapusta z mięsem",
+        "hunter's stew"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 250.0
+        }
+      ],
+      "nutrition": {
+        "kcal": 75,
+        "protein": 5.4,
+        "fat": 4.5,
+        "sat_fat": 1.0,
+        "salt": 0.96
+      },
+      "recipe": [
+        {
+          "id": "w_kapustakiszona",
+          "grams": 120
+        },
+        {
+          "id": "w_kapusta",
+          "grams": 40
+        },
+        {
+          "id": "p_schab",
+          "grams": 35
+        },
+        {
+          "id": "p_boczek",
+          "grams": 15
+        },
+        {
+          "id": "w_cebula",
+          "grams": 10
+        },
+        {
+          "id": "p_olejrzepakowy",
+          "grams": 5
+        },
+        {
+          "id": "water",
+          "grams": 25
+        }
+      ]
+    },
+    {
+      "id": "r_pizza",
+      "name": "Pizza margherita (2 kawałki)",
+      "name_en": "Margherita pizza (2 slices)",
+      "category": "Dania",
+      "carbs_100g": 24.2,
+      "fiber_100g": 1.1,
+      "sugars_100g": 0.8,
+      "ig": 64,
+      "ig_source": "estimated",
+      "ig_basis": "dish",
+      "ig_exact": 64.14,
+      "default_portion": 2,
+      "barcode": null,
+      "synonyms": [
+        "pizza",
+        "margherita",
+        "pizza margherita"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 110.0
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 220.0
+        }
+      ],
+      "nutrition": {
+        "kcal": 202,
+        "protein": 8.0,
+        "fat": 7.5,
+        "sat_fat": 3.6,
+        "salt": 0.17
+      },
+      "recipe": [
+        {
+          "id": "k_makapszenna",
+          "grams": 70
+        },
+        {
+          "id": "water",
+          "grams": 40
+        },
+        {
+          "id": "w_pomidor",
+          "grams": 45
+        },
+        {
+          "id": "p_mozzarella",
+          "grams": 60
+        },
+        {
+          "id": "p_oliwa",
+          "grams": 5
+        }
+      ]
+    },
+    {
+      "id": "r_sushimaki",
+      "name": "Sushi maki z łososiem (6 sztuk)",
+      "name_en": "Salmon maki sushi (6)",
+      "category": "Dania",
+      "carbs_100g": 23.6,
+      "fiber_100g": 0.3,
+      "sugars_100g": 2.9,
+      "ig": 69,
+      "ig_source": "estimated",
+      "ig_basis": "dish",
+      "ig_exact": 68.64,
+      "default_portion": 2,
+      "barcode": null,
+      "synonyms": [
+        "sushi",
+        "maki",
+        "sushi z łososiem",
+        "salmon sushi"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 25.0
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 149.0
+        }
+      ],
+      "nutrition": {
+        "kcal": 142,
+        "protein": 5.7,
+        "fat": 2.3,
+        "sat_fat": 0.5,
+        "salt": 0.03
+      },
+      "recipe": [
+        {
+          "id": "k_ryzbialy",
+          "grams": 110
+        },
+        {
+          "id": "p_losos",
+          "grams": 25
+        },
+        {
+          "id": "w_ogorek",
+          "grams": 10
+        },
+        {
+          "id": "s_cukier",
+          "grams": 4
+        }
+      ]
+    },
+    {
+      "id": "r_rosolzmakaronem",
+      "name": "Rosół z makaronem",
+      "name_en": "Chicken soup with noodles",
+      "category": "Dania",
+      "carbs_100g": 4.7,
+      "fiber_100g": 0.6,
+      "sugars_100g": 0.4,
+      "ig": 53,
+      "ig_source": "estimated",
+      "ig_basis": "dish",
+      "ig_exact": 53.09,
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "rosół",
+        "rosol",
+        "zupa rosół",
+        "chicken soup",
+        "chicken noodle soup"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "plate",
+          "qty": 1,
+          "grams": 350.0
+        }
+      ],
+      "nutrition": {
+        "kcal": 42,
+        "protein": 4.2,
+        "fat": 0.5,
+        "sat_fat": 0.1,
+        "salt": 0.03
+      },
+      "recipe": [
+        {
+          "id": "k_makaronaldente",
+          "grams": 60
+        },
+        {
+          "id": "w_marchew",
+          "grams": 30
+        },
+        {
+          "id": "p_kurczakpiers",
+          "grams": 40
+        },
+        {
+          "id": "water",
+          "grams": 220
+        }
+      ]
+    },
+    {
+      "id": "r_fasolkapobretonsku",
+      "name": "Fasolka po bretońsku",
+      "name_en": "Baked beans, Breton style",
+      "category": "Dania",
+      "carbs_100g": 13.1,
+      "fiber_100g": 4.4,
+      "sugars_100g": 1.0,
+      "ig": 32,
+      "ig_source": "estimated",
+      "ig_basis": "dish",
+      "ig_exact": 32.43,
+      "default_portion": 1,
+      "barcode": null,
+      "synonyms": [
+        "fasolka po bretonsku",
+        "fasolka",
+        "baked beans",
+        "fasola w sosie pomidorowym"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 235.0
+        }
+      ],
+      "nutrition": {
+        "kcal": 140,
+        "protein": 7.8,
+        "fat": 4.6,
+        "sat_fat": 1.0,
+        "salt": 0.21
+      },
+      "recipe": [
+        {
+          "id": "w_fasolabiala",
+          "grams": 150
+        },
+        {
+          "id": "p_boczek",
+          "grams": 20
+        },
+        {
+          "id": "w_cebula",
+          "grams": 20
+        },
+        {
+          "id": "w_pomidor",
+          "grams": 40
+        },
+        {
+          "id": "p_olejrzepakowy",
+          "grams": 5
+        }
+      ]
+    },
+    {
+      "id": "r_jajecznica",
+      "name": "Jajecznica na maśle (3 jajka)",
+      "name_en": "Scrambled eggs with butter (3 eggs)",
+      "category": "Dania",
+      "carbs_100g": 0.8,
+      "fiber_100g": 0.0,
+      "sugars_100g": 0.6,
+      "ig": 100,
+      "ig_source": "estimated",
+      "ig_basis": "dish",
+      "ig_exact": 100.0,
+      "default_portion": 1,
+      "barcode": null,
+      "ig_applicable": false,
+      "synonyms": [
+        "jajecznica",
+        "jajka sadzone",
+        "scrambled eggs",
+        "eggs"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 160.0
+        }
+      ],
+      "nutrition": {
+        "kcal": 192,
+        "protein": 11.9,
+        "fat": 15.1,
+        "sat_fat": 6.6,
+        "salt": 0.29
+      },
+      "recipe": [
+        {
+          "id": "p_jajko",
+          "grams": 150
+        },
+        {
+          "id": "p_maslo",
+          "grams": 10
+        }
+      ]
     }
   ]
 }
