@@ -1,23 +1,31 @@
 #!/usr/bin/env python3
-"""Builds offline-pack.json: the Glik app's offline database in one file.
+"""Builds the Glik app's offline packs: one file per market.
 
-The app used to page through Open Food Facts' anonymous search API itself
-(10 pages of 100, at most 10 requests a minute, frequent 503s), which took
-about 2 minutes. It now downloads this one pre-built file in seconds and only
-falls back to paging OFF when the file is unavailable or invalid.
+    offline-pack.json      Poland: products with a Polish label sold in Poland
+    offline-pack-en.json   English: products with an English label sold in the
+                           United Kingdom, Ireland, the United States, Canada,
+                           Australia or New Zealand
 
-Same query as the app (app/lib/data/off_pack_service.dart): the same fields,
-no sort, page_size=100, pages 1..10. Standard library only.
+Each pack holds the PACK_SIZE most scanned such products of Open Food Facts.
+Until November 2026 there was one pack from OFF's unsorted world search: 78 %
+of it was sold in France and 3.5 % in Poland, so a Polish user got a thousand
+products they could not buy.
 
-    python3 tools/build_offline_pack.py            # writes ./offline-pack.json
-    python3 tools/build_offline_pack.py --out x.json
+`offline-pack.json` keeps its name because Glik 1.3.0-1.4.0 downloads exactly
+that URL; most of their users are in Poland. Glik 1.5 and later picks the
+file by the app language and the phone's region.
 
-Exit code 0: the file was written, or the products are unchanged. OFF often
-answers 503 for minutes at a time, so a page that keeps failing after page 1
-(or the run's time budget running out) ends the fetch early: the pages that
-did arrive are kept and the missing ones are filled from the existing pack,
-so coverage never shrinks. Exit code 1 only when page 1 itself fails or fewer
-than MIN_PRODUCTS products remain; the existing file is then left untouched.
+Source: Open Food Facts' search service (search.openfoodfacts.org), which
+filters by country and label language and sorts by scans in one request.
+Standard library only.
+
+    python3 tools/build_offline_pack.py              # both packs
+    python3 tools/build_offline_pack.py --market pl  # one pack
+    python3 tools/build_offline_pack.py --out-dir /tmp/packs
+
+Exit code 0: every requested pack was written or is unchanged. A pack whose
+fetch fails, or that ends with fewer than MIN_PRODUCTS products, is left
+untouched and the exit code is 1; the other pack is still written.
 """
 from __future__ import annotations
 
@@ -30,18 +38,29 @@ import sys
 import tempfile
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 
-SEARCH = "https://world.openfoodfacts.org/api/v2/search"
-# Copied from the app's OffPackService._fetchPage; keep the two in sync.
+SEARCH = "https://search.openfoodfacts.org/search"
+PACKS = {
+    "pl": {
+        "file": "offline-pack.json",
+        "query": 'countries_tags:"en:poland" AND lang:pl',
+    },
+    "en": {
+        "file": "offline-pack-en.json",
+        "query": ('lang:en AND countries_tags:("en:united-kingdom" OR '
+                  '"en:ireland" OR "en:united-states" OR "en:canada" OR '
+                  '"en:australia" OR "en:new-zealand")'),
+    },
+}
+# What the app reads from a pack row (app/lib/logic/off_mapper.dart). The
+# search service does not index serving sizes, so pack rows carry none; the
+# app then offers 100 g and the package.
 FIELDS = ("code,product_name,product_name_en,brands,nutriments,"
-          "serving_size,serving_quantity,nutriscore_grade,nova_group,quantity,"
-          "countries_tags")
-PAGE_SIZE = 100
-LAST_PAGE = 10  # OFF answers 401 to anonymous clients beyond page 10
-# The keys the app reads from `nutriments` (lib/logic/off_mapper.dart and
-# off_quality.dart). Everything else OFF sends there is dropped.
+          "nutriscore_grade,nova_group,quantity,countries_tags")
+# The keys the app reads from `nutriments`. Everything else is dropped.
 NUTRIMENT_KEYS = (
     "carbohydrates_100g",
     "fiber_100g",
@@ -52,48 +71,42 @@ NUTRIMENT_KEYS = (
     "salt_100g",
     "energy-kcal_100g",
 )
-USER_AGENT = "GlikPackBuilder/1.0 (mateuszwyszogrodzki@o2.pl)"
-PAGE_DELAY = 6.5  # OFF allows 10 search requests a minute per IP
-MAX_ATTEMPTS = 10
-MAX_BACKOFF = 60.0  # OFF's 503 bursts often last minutes, not seconds
-RUN_BUDGET = 22 * 60  # seconds; the workflow job times out at 30 minutes
-TIMEOUT = 30
+PACK_SIZE = 1000
+PAGE_SIZE = 1000  # the service's maximum
+MAX_PAGES = 3  # rows without a name or carbohydrates are skipped, so read on
+USER_AGENT = "GlikPackBuilder/2.0 (contact@getglik.com)"
+MAX_ATTEMPTS = 6
+MAX_BACKOFF = 60.0
+TIMEOUT = 60
 MIN_PRODUCTS = 300
 LICENSE = ("Open Database License (ODbL) 1.0; product data © Open Food Facts "
            "contributors, https://world.openfoodfacts.org")
 
 
-class EndOfData(Exception):
-    """OFF refused a page after the first: the anonymous limit, not an error."""
-
-
-def backoff(attempt: int, retry_after: str | None = None) -> float:
-    """2, 4, 8 ... capped at MAX_BACKOFF; OFF's Retry-After wins when sane."""
-    if retry_after and retry_after.strip().isdigit():
-        return min(max(float(retry_after), 1.0), 120.0)
+def backoff(attempt: int) -> float:
+    """2, 4, 8 ... seconds, capped at MAX_BACKOFF."""
     return min(2.0 * (2 ** attempt), MAX_BACKOFF)
 
 
-class OutOfTime(Exception):
-    """The run's time budget ran out between retries."""
-
-
-def fetch_page(page: int, deadline: float = float("inf")) -> list:
-    url = (f"{SEARCH}?fields={FIELDS}&page_size={PAGE_SIZE}&page={page}")
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+def fetch_page(query: str, page: int) -> list:
+    params = urllib.parse.urlencode({
+        "q": query,
+        "sort_by": "-unique_scans_n",
+        "page_size": PAGE_SIZE,
+        "page": page,
+        "fields": FIELDS,
+    })
+    req = urllib.request.Request(f"{SEARCH}?{params}",
+                                 headers={"User-Agent": USER_AGENT})
     last = "no attempt"
     for attempt in range(MAX_ATTEMPTS):
-        retry_after = None
         try:
             with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:
                 body = resp.read()
         except urllib.error.HTTPError as e:
-            if e.code in (401, 403) and page > 1:
-                raise EndOfData() from e
             if e.code < 500 and e.code != 429:
                 raise RuntimeError(f"page {page}: HTTP {e.code}") from e
             last = f"HTTP {e.code}"
-            retry_after = e.headers.get("Retry-After") if e.headers else None
         except (urllib.error.URLError, http.client.HTTPException, TimeoutError,
                 OSError) as e:
             last = f"{type(e).__name__}: {e}"
@@ -102,65 +115,74 @@ def fetch_page(page: int, deadline: float = float("inf")) -> list:
                 data = json.loads(body)
             except ValueError:
                 data = None  # truncated or HTML body: retry like a 5xx
-            products = data.get("products") if isinstance(data, dict) else None
-            if isinstance(products, list):
-                return products
+            hits = data.get("hits") if isinstance(data, dict) else None
+            if isinstance(hits, list):
+                return hits
             last = "malformed body"
         if attempt + 1 < MAX_ATTEMPTS:
-            wait = backoff(attempt, retry_after)
-            if time.monotonic() + wait > deadline:
-                raise OutOfTime(f"page {page}: time budget used up ({last})")
+            wait = backoff(attempt)
             print(f"  page {page}: {last}, retry in {wait:g} s", file=sys.stderr)
             time.sleep(wait)
     raise RuntimeError(f"page {page}: gave up after {MAX_ATTEMPTS} attempts ({last})")
 
 
-def trim(product: dict) -> dict | None:
-    code = product.get("code")
+def is_number(value) -> bool:
+    return isinstance(value, (int, float)) and not isinstance(value, bool)
+
+
+def trim(hit: dict) -> dict | None:
+    """One pack row in the shape of OFF's product API, or None to skip it.
+
+    Skipped: no barcode, no name (the app would show the brand alone), no
+    carbohydrate value (the app could not compute a glycemic load). The values
+    themselves are never changed.
+    """
+    code = hit.get("code")
     if not isinstance(code, str) or not code.strip():
         return None
-    # Only the fields the query asked for. OFF adds unrequested ones next to
-    # `nutriments` (nutriments_estimated alone is ~45 % of the file); the app
-    # reads none of them. Requested fields stay as OFF returned them.
-    out = {k: product[k] for k in FIELDS.split(",") if k in product}
-    out["code"] = code.strip()
-    nutr = product.get("nutriments")
-    if isinstance(nutr, dict):
-        out["nutriments"] = {k: nutr[k] for k in NUTRIMENT_KEYS if k in nutr}
+    name = hit.get("product_name")
+    if not isinstance(name, str) or not name.strip():
+        return None
+    nutr = hit.get("nutriments")
+    if not isinstance(nutr, dict) or not is_number(nutr.get("carbohydrates_100g")):
+        return None
+    out = {"code": code.strip(), "product_name": name.strip()}
+    name_en = hit.get("product_name_en")
+    if isinstance(name_en, str) and name_en.strip():
+        out["product_name_en"] = name_en.strip()
+    # The search service returns brands as a list; OFF's product API, and so
+    # the app, has one comma-separated string.
+    brands = hit.get("brands")
+    if isinstance(brands, list):
+        brands = ", ".join(b.strip() for b in brands if isinstance(b, str) and b.strip())
+    if isinstance(brands, str) and brands.strip():
+        out["brands"] = brands.strip()
+    out["nutriments"] = {k: nutr[k] for k in NUTRIMENT_KEYS if is_number(nutr.get(k))}
+    for key in ("nutriscore_grade", "nova_group", "quantity", "countries_tags"):
+        if hit.get(key) not in (None, "", []):
+            out[key] = hit[key]
     return out
 
 
-def collect() -> tuple[list, bool]:
-    """Products in OFF order, and whether every page arrived."""
+def collect(query: str) -> list:
+    """The PACK_SIZE most scanned usable products for [query], in that order."""
     products, seen = [], set()
-    deadline = time.monotonic() + RUN_BUDGET
-    complete = True
-    for page in range(1, LAST_PAGE + 1):
-        if page > 1:
-            time.sleep(PAGE_DELAY)
-        try:
-            raw = fetch_page(page, deadline)
-        except EndOfData:
-            print(f"page {page}: refused (anonymous limit), end of data")
-            break
-        except (RuntimeError, OutOfTime) as e:
-            if page == 1:
-                raise
-            print(f"page {page}: {e}; keeping pages 1-{page - 1}", file=sys.stderr)
-            complete = False
-            break
+    for page in range(1, MAX_PAGES + 1):
+        hits = fetch_page(query, page)
         kept = 0
-        for item in raw:
-            p = trim(item) if isinstance(item, dict) else None
+        for hit in hits:
+            p = trim(hit) if isinstance(hit, dict) else None
             if p is None or p["code"] in seen:
                 continue
             seen.add(p["code"])
             products.append(p)
             kept += 1
-        print(f"page {page}: {len(raw)} received, {kept} kept")
-        if len(raw) < PAGE_SIZE:
-            break  # last page
-    return products, complete
+            if len(products) == PACK_SIZE:
+                break
+        print(f"  page {page}: {len(hits)} received, {kept} kept")
+        if len(products) == PACK_SIZE or len(hits) < PAGE_SIZE:
+            break
+    return products
 
 
 def existing_products(path: pathlib.Path):
@@ -170,35 +192,25 @@ def existing_products(path: pathlib.Path):
         return None
 
 
-def main() -> int:
-    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    default_out = pathlib.Path(__file__).resolve().parent.parent / "offline-pack.json"
-    ap.add_argument("--out", type=pathlib.Path, default=default_out)
-    out = ap.parse_args().out
-
+def build(market: str, out: pathlib.Path) -> bool:
+    """Writes one pack. False when it failed and the file was left alone."""
+    print(f"{market}: {out.name}")
     try:
-        products, complete = collect()
+        products = collect(PACKS[market]["query"])
     except Exception as e:  # noqa: BLE001 - any failure must keep the old file
         print(f"FAILED: {e}; {out.name} left unchanged", file=sys.stderr)
-        return 1
-    if not complete:
-        # Fill the pages OFF did not serve from the current pack, so a partial
-        # run refreshes what it got without dropping anything.
-        seen = {p["code"] for p in products}
-        old = existing_products(out) or []
-        filled = [p for p in old if isinstance(p, dict) and p.get("code") not in seen]
-        products += filled
-        print(f"partial fetch: {len(filled)} products carried over from the existing pack")
+        return False
     if len(products) < MIN_PRODUCTS:
         print(f"FAILED: only {len(products)} products (< {MIN_PRODUCTS}); "
               f"{out.name} left unchanged", file=sys.stderr)
-        return 1
+        return False
     if existing_products(out) == products:
-        print(f"{len(products)} products, unchanged; {out.name} not rewritten")
-        return 0
+        print(f"  {len(products)} products, unchanged; {out.name} not rewritten")
+        return True
 
     pack = {
         "format": 1,
+        "market": market,
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "source": "Open Food Facts",
         "license": LICENSE,
@@ -212,8 +224,21 @@ def main() -> int:
         f.write(text)
     os.chmod(tmp, 0o644)
     os.replace(tmp, out)
-    print(f"wrote {out} ({len(products)} products, {len(text.encode('utf-8'))} bytes)")
-    return 0
+    print(f"  wrote {out} ({len(products)} products, {len(text.encode('utf-8'))} bytes)")
+    return True
+
+
+def main() -> int:
+    ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
+    default_dir = pathlib.Path(__file__).resolve().parent.parent
+    ap.add_argument("--out-dir", type=pathlib.Path, default=default_dir)
+    ap.add_argument("--market", choices=sorted(PACKS), action="append",
+                    help="build only this pack (repeatable); default: all")
+    args = ap.parse_args()
+    ok = True
+    for market in args.market or sorted(PACKS, reverse=True):  # pl first
+        ok = build(market, args.out_dir / PACKS[market]["file"]) and ok
+    return 0 if ok else 1
 
 
 if __name__ == "__main__":

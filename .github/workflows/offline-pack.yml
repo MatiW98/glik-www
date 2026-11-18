@@ -1,7 +1,8 @@
 name: Offline pack
 
-# Rebuilds offline-pack.json (the Glik app's offline database) from Open Food
-# Facts every week. See README.md.
+# Rebuilds the Glik app's offline packs (offline-pack.json for Poland,
+# offline-pack-en.json for the English version) from Open Food Facts every
+# week. See README.md.
 on:
   schedule:
     - cron: '17 4 * * 1' # Monday 04:17 UTC
@@ -26,22 +27,23 @@ jobs:
         with:
           python-version: '3.x'
 
-      # Exits non-zero (failing the run) without touching the file only when
-      # page 1 fails or fewer than 300 products remain; a later page that keeps
-      # failing ends the fetch and the rest comes from the existing pack.
-      - name: Build offline-pack.json
+      # A pack whose fetch fails, or that ends with fewer than 300 products,
+      # is left untouched and the step fails; the other pack is still written
+      # and committed below (`always()`).
+      - name: Build the offline packs
         run: python3 tools/build_offline_pack.py
 
       - name: Commit and push if changed
         id: push
+        if: always()
         run: |
-          if [ -z "$(git status --porcelain -- offline-pack.json)" ]; then
-            echo "offline-pack.json unchanged, nothing to commit"
+          if [ -z "$(git status --porcelain -- offline-pack.json offline-pack-en.json)" ]; then
+            echo "offline packs unchanged, nothing to commit"
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add offline-pack.json
+          git add offline-pack.json offline-pack-en.json
           git commit -m "Paczka offline: odświeżenie $(date -u +%Y-%m-%d)"
           git push
           echo "pushed=true" >> "$GITHUB_OUTPUT"
@@ -50,7 +52,7 @@ jobs:
       # do not trigger a GitHub Pages build" (GitHub docs), so the new file
       # would never go live without this.
       - name: Request a GitHub Pages build
-        if: steps.push.outputs.pushed == 'true'
+        if: always() && steps.push.outputs.pushed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds"
