@@ -1,5 +1,5 @@
 {
-  "version": 23,
+  "version": 24,
   "products": [
     {
       "id": "o_jablko",
@@ -5614,11 +5614,13 @@
       "carbs_100g": 8.0,
       "fiber_100g": 1.5,
       "sugars_100g": 8.0,
-      "ig": 56,
-      "ig_source": "estimated",
-      "ig_basis": "composition",
+      "ig": 57,
+      "ig_source": "measured",
       "default_portion": 1,
       "barcode": null,
+      "source_doi": "10.4163/kjn.2012.45.2.192",
+      "source_year": 2012,
+      "iso_method": false,
       "synonyms": [
         "brzoskwinie",
         "peach",
@@ -5904,11 +5906,13 @@
       "carbs_100g": 11.5,
       "fiber_100g": 1.8,
       "sugars_100g": 10.6,
-      "ig": 55,
-      "ig_source": "estimated",
-      "ig_basis": "composition",
+      "ig": 50,
+      "ig_source": "measured",
       "default_portion": 1,
       "barcode": null,
+      "source_doi": "10.4163/kjn.2012.45.2.192",
+      "source_year": 2012,
+      "iso_method": false,
       "synonyms": [
         "mandarynki",
         "klementynka",
@@ -6288,11 +6292,13 @@
       "carbs_100g": 15.0,
       "fiber_100g": 3.6,
       "sugars_100g": 12.5,
-      "ig": 58,
-      "ig_source": "estimated",
-      "ig_basis": "composition",
+      "ig": 43,
+      "ig_source": "measured",
       "default_portion": 1,
       "barcode": null,
+      "source_doi": "10.4163/kjn.2012.45.2.192",
+      "source_year": 2012,
+      "iso_method": false,
       "synonyms": [
         "persymona",
         "sharon",
@@ -6695,11 +6701,13 @@
       "carbs_100g": 23.0,
       "fiber_100g": 1.0,
       "sugars_100g": 0.0,
-      "ig": 66,
-      "ig_source": "estimated",
-      "ig_basis": "composition",
+      "ig": 56,
+      "ig_source": "measured",
       "default_portion": 1,
       "barcode": null,
+      "source_doi": "10.1017/s0007114509992042",
+      "source_year": 2010,
+      "iso_method": false,
       "synonyms": [
         "makaron ryzowy",
         "ryżowy makaron",
@@ -6744,11 +6752,13 @@
       "carbs_100g": 26.9,
       "fiber_100g": 4.6,
       "sugars_100g": 0.9,
-      "ig": 60,
-      "ig_source": "estimated",
-      "ig_basis": "composition",
+      "ig": 55,
+      "ig_source": "measured",
       "default_portion": 1,
       "barcode": null,
+      "source_doi": "10.1079/bjn20051594",
+      "source_year": 2005,
+      "iso_method": false,
       "synonyms": [
         "makaron razowy",
         "razowy makaron",
@@ -7223,11 +7233,13 @@
       "carbs_100g": 26.9,
       "fiber_100g": 3.3,
       "sugars_100g": 5.9,
-      "ig": 34,
-      "ig_source": "estimated",
-      "ig_basis": "composition",
+      "ig": 25,
+      "ig_source": "measured",
       "default_portion": 1,
       "barcode": null,
+      "source_doi": "10.1079/bjn20051594",
+      "source_year": 2005,
+      "iso_method": false,
       "synonyms": [
         "nerkowce",
         "orzech nerkowca",
@@ -8080,11 +8092,13 @@
       "carbs_100g": 50.7,
       "fiber_100g": 3.1,
       "sugars_100g": 0.3,
-      "ig": 47,
-      "ig_source": "estimated",
-      "ig_basis": "composition",
+      "ig": 51,
+      "ig_source": "measured",
       "default_portion": 1,
       "barcode": null,
+      "source_doi": "10.1093/ajcn/34.3.362",
+      "source_year": 1981,
+      "iso_method": false,
       "synonyms": [
         "chipsy",
         "chips",
@@ -8652,6 +8666,759 @@
       "nutrition_source": {
         "db": "USDA FDC",
         "id": "170184"
+      }
+    },
+    {
+      "id": "w_soczewicaczerwona",
+      "name": "Soczewica czerwona (łuskana), gotowana",
+      "name_en": "Boiled red split lentils",
+      "category": "Strączkowe",
+      "carbs_100g": 12.2,
+      "fiber_100g": 7.9,
+      "sugars_100g": 1.8,
+      "ig": 21,
+      "ig_source": "measured",
+      "default_portion": 2,
+      "barcode": null,
+      "source_doi": "10.1079/bjn20051594",
+      "source_year": 2005,
+      "iso_method": false,
+      "synonyms": [
+        "soczewica czerwona",
+        "red lentils",
+        "lentil",
+        "lentils"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 20
+        },
+        {
+          "unit_key": "serving_plate",
+          "qty": 1,
+          "grams": 150
+        }
+      ],
+      "nutrition": {
+        "kcal": 116,
+        "protein": 9,
+        "fat": 0.4,
+        "sat_fat": 0.1,
+        "salt": 0.01
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "172421",
+        "approx": true
+      }
+    },
+    {
+      "id": "w_grochluskany",
+      "name": "Groch łuskany (połówki), gotowany",
+      "name_en": "Boiled yellow split peas",
+      "category": "Strączkowe",
+      "carbs_100g": 12.8,
+      "fiber_100g": 8.3,
+      "sugars_100g": 2.9,
+      "ig": 25,
+      "ig_source": "measured",
+      "default_portion": 2,
+      "barcode": null,
+      "source_doi": "10.1079/bjn20051594",
+      "source_year": 2005,
+      "iso_method": false,
+      "synonyms": [
+        "groch łuskany",
+        "groch połówki",
+        "grochówka",
+        "split peas"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 20
+        },
+        {
+          "unit_key": "serving_bowl",
+          "qty": 1,
+          "grams": 150
+        }
+      ],
+      "nutrition": {
+        "kcal": 118,
+        "protein": 8.3,
+        "fat": 0.4,
+        "sat_fat": 0.1,
+        "salt": 0.01
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "172429"
+      }
+    },
+    {
+      "id": "w_soja",
+      "name": "Soja gotowana",
+      "name_en": "Boiled soybeans",
+      "category": "Strączkowe",
+      "carbs_100g": 2.4,
+      "fiber_100g": 6,
+      "sugars_100g": 2.4,
+      "ig": 15,
+      "ig_source": "measured",
+      "default_portion": 2,
+      "barcode": null,
+      "source_doi": "10.1093/ajcn/34.3.362",
+      "source_year": 1981,
+      "iso_method": false,
+      "synonyms": [
+        "soja",
+        "nasiona soi",
+        "soya",
+        "soya beans",
+        "soy beans"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 20
+        },
+        {
+          "unit_key": "serving_bowl",
+          "qty": 1,
+          "grams": 150
+        }
+      ],
+      "nutrition": {
+        "kcal": 172,
+        "protein": 18.2,
+        "fat": 9,
+        "sat_fat": 1.3,
+        "salt": 0
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "174271"
+      }
+    },
+    {
+      "id": "w_batatpieczony",
+      "name": "Batat pieczony",
+      "name_en": "Baked sweet potato",
+      "category": "Warzywa",
+      "carbs_100g": 17.4,
+      "fiber_100g": 3.3,
+      "sugars_100g": 6.5,
+      "ig": 91,
+      "ig_source": "measured",
+      "default_portion": 1,
+      "barcode": null,
+      "source_doi": "10.1017/s0007114518003446",
+      "source_year": 2019,
+      "iso_method": true,
+      "synonyms": [
+        "słodki ziemniak",
+        "słodkie ziemniaki",
+        "batat z piekarnika"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 130
+        }
+      ],
+      "nutrition": {
+        "kcal": 90,
+        "protein": 2,
+        "fat": 0.2,
+        "sat_fat": 0.1,
+        "salt": 0.09
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "168483"
+      }
+    },
+    {
+      "id": "b_pita",
+      "name": "Pita pszenna",
+      "name_en": "White pita bread",
+      "category": "Pieczywo",
+      "carbs_100g": 53.5,
+      "fiber_100g": 2.2,
+      "sugars_100g": 1.3,
+      "ig": 68,
+      "ig_source": "measured",
+      "default_portion": 1,
+      "barcode": null,
+      "source_doi": "10.1079/bjn20051594",
+      "source_year": 2005,
+      "iso_method": false,
+      "synonyms": [
+        "chlebek pita",
+        "pitta",
+        "chleb pita"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 1,
+          "grams": 60
+        }
+      ],
+      "nutrition": {
+        "kcal": 275,
+        "protein": 9.1,
+        "fat": 1.2,
+        "sat_fat": 0.2,
+        "salt": 1.34
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "174915"
+      }
+    },
+    {
+      "id": "o_papaja",
+      "name": "Papaja",
+      "name_en": "Papaya",
+      "category": "Owoce",
+      "carbs_100g": 9.1,
+      "fiber_100g": 1.7,
+      "sugars_100g": 7.8,
+      "ig": 58,
+      "ig_source": "measured",
+      "default_portion": 1,
+      "barcode": null,
+      "source_doi": "PMID:18364324",
+      "source_year": 2008,
+      "iso_method": false,
+      "synonyms": [
+        "papaya",
+        "melonowiec"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "serving_cubes_bowl",
+          "qty": 1,
+          "grams": 145
+        }
+      ],
+      "nutrition": {
+        "kcal": 43,
+        "protein": 0.5,
+        "fat": 0.3,
+        "sat_fat": 0.1,
+        "salt": 0.02
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "169926"
+      }
+    },
+    {
+      "id": "o_brzoskwiniewsyropie",
+      "name": "Brzoskwinie w syropie (z puszki)",
+      "name_en": "Canned peaches in heavy syrup",
+      "category": "Owoce",
+      "carbs_100g": 18.6,
+      "fiber_100g": 1.3,
+      "sugars_100g": 18.6,
+      "ig": 58,
+      "ig_source": "measured",
+      "default_portion": 1,
+      "barcode": null,
+      "source_doi": "10.1079/bjn19950063",
+      "source_year": 1995,
+      "iso_method": false,
+      "synonyms": [
+        "brzoskwinie z puszki",
+        "brzoskwinia w syropie",
+        "peaches in syrup"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "serving",
+          "qty": 1,
+          "grams": 120
+        }
+      ],
+      "nutrition": {
+        "kcal": 74,
+        "protein": 0.5,
+        "fat": 0.1,
+        "sat_fat": 0,
+        "salt": 0.02
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "169112"
+      }
+    },
+    {
+      "id": "o_musjablkowy",
+      "name": "Mus jabłkowy bez dodatku cukru",
+      "name_en": "Apple purée, no added sugar",
+      "category": "Owoce",
+      "carbs_100g": 10.2,
+      "fiber_100g": 1.1,
+      "sugars_100g": 9.4,
+      "ig": 46,
+      "ig_source": "measured",
+      "default_portion": 1,
+      "barcode": null,
+      "source_doi": "10.1002/fsn3.70844",
+      "source_year": 2025,
+      "iso_method": true,
+      "synonyms": [
+        "przecier jabłkowy",
+        "mus owocowy",
+        "mus z jabłek",
+        "applesauce",
+        "apple sauce"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "pack_small",
+          "qty": 1,
+          "grams": 90
+        }
+      ],
+      "nutrition": {
+        "kcal": 42,
+        "protein": 0.2,
+        "fat": 0.1,
+        "sat_fat": 0,
+        "salt": 0.01
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "171695"
+      }
+    },
+    {
+      "id": "k_platkiotrebowe",
+      "name": "Płatki pszenne z otrębami (bran flakes), na sucho",
+      "name_en": "Bran flakes, eaten dry",
+      "category": "Płatki i musli",
+      "carbs_100g": 62.2,
+      "fiber_100g": 18.3,
+      "sugars_100g": 18.6,
+      "ig": 50,
+      "ig_source": "measured",
+      "default_portion": 1,
+      "barcode": null,
+      "source_doi": "10.1079/bjn20051594",
+      "source_year": 2005,
+      "iso_method": false,
+      "synonyms": [
+        "płatki otrębowe",
+        "bran flakes",
+        "branflakes",
+        "platki z otrebami"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "bowl",
+          "qty": 1,
+          "grams": 30
+        }
+      ],
+      "nutrition": {
+        "kcal": 328,
+        "protein": 9.9,
+        "fat": 2.1,
+        "sat_fat": 0.4,
+        "salt": 1.35
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "173888"
+      }
+    },
+    {
+      "id": "w_fasolkawsosie",
+      "name": "Fasolka w sosie pomidorowym (z puszki)",
+      "name_en": "Baked beans in tomato sauce, canned",
+      "category": "Strączkowe",
+      "carbs_100g": 17,
+      "fiber_100g": 4.1,
+      "sugars_100g": 8,
+      "ig": 40,
+      "ig_source": "measured",
+      "default_portion": 1,
+      "barcode": null,
+      "source_doi": "10.1093/ajcn/34.3.362",
+      "source_year": 1981,
+      "iso_method": false,
+      "synonyms": [
+        "baked beans",
+        "fasola w sosie pomidorowym",
+        "fasolka z puszki"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "serving_bowl",
+          "qty": 1,
+          "grams": 200
+        },
+        {
+          "unit_key": "can",
+          "qty": 1,
+          "grams": 400
+        }
+      ],
+      "nutrition": {
+        "kcal": 94,
+        "protein": 4.8,
+        "fat": 0.4,
+        "sat_fat": 0.1,
+        "salt": 0.86
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "175182",
+        "approx": true
+      }
+    },
+    {
+      "id": "s_landrynki",
+      "name": "Cukierki twarde (landrynki)",
+      "name_en": "Hard candy (boiled sweets)",
+      "category": "Słodycze",
+      "carbs_100g": 98,
+      "fiber_100g": 0,
+      "sugars_100g": 62.9,
+      "ig": 70,
+      "ig_source": "measured",
+      "default_portion": 1,
+      "barcode": null,
+      "source_doi": "10.1079/bjn19950063",
+      "source_year": 1995,
+      "iso_method": false,
+      "synonyms": [
+        "landrynki",
+        "cukierki miętowe",
+        "miętówki",
+        "boiled sweets",
+        "hard candies"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "piece",
+          "qty": 3,
+          "grams": 15
+        }
+      ],
+      "nutrition": {
+        "kcal": 394,
+        "protein": 0,
+        "fat": 0.2,
+        "sat_fat": 0,
+        "salt": 0.1
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "167990"
+      }
+    },
+    {
+      "id": "b_tortillakukurydziana",
+      "name": "Tortilla kukurydziana",
+      "name_en": "Corn tortilla",
+      "category": "Pieczywo",
+      "carbs_100g": 38.3,
+      "fiber_100g": 6.3,
+      "sugars_100g": 0.9,
+      "ig": 52,
+      "ig_source": "measured",
+      "default_portion": 2,
+      "barcode": null,
+      "source_doi": "PMID:10824718",
+      "source_year": 2000,
+      "iso_method": false,
+      "synonyms": [
+        "placek kukurydziany",
+        "tortilla z kukurydzy",
+        "taco"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "tortilla_small",
+          "qty": 1,
+          "grams": 26
+        },
+        {
+          "unit_key": "tortilla",
+          "qty": 2,
+          "grams": 52
+        }
+      ],
+      "nutrition": {
+        "kcal": 218,
+        "protein": 5.7,
+        "fat": 2.9,
+        "sat_fat": 0.5,
+        "salt": 0.11
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "175036"
+      }
+    },
+    {
+      "id": "s_krakersy",
+      "name": "Krakersy",
+      "name_en": "Crackers",
+      "category": "Słodycze",
+      "carbs_100g": 59,
+      "fiber_100g": 2.3,
+      "sugars_100g": 8.2,
+      "ig": 57,
+      "ig_source": "measured",
+      "default_portion": 1,
+      "barcode": null,
+      "source_doi": "10.3390/nu11092218",
+      "source_year": 2019,
+      "iso_method": true,
+      "synonyms": [
+        "krakers",
+        "cracker",
+        "słone krakersy"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "handful",
+          "qty": 1,
+          "grams": 30
+        }
+      ],
+      "nutrition": {
+        "kcal": 510,
+        "protein": 6.6,
+        "fat": 26.4,
+        "sat_fat": 5.6,
+        "salt": 1.82
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "174982"
+      }
+    },
+    {
+      "id": "d_piwo",
+      "name": "Piwo jasne (pils, ok. 4,5%)",
+      "name_en": "Lager beer (pilsner, about 4.5%)",
+      "category": "Napoje",
+      "carbs_100g": 3.6,
+      "fiber_100g": 0,
+      "sugars_100g": 0,
+      "ig": 89,
+      "ig_source": "measured",
+      "default_portion": 2,
+      "barcode": null,
+      "source_doi": "10.1017/s0007114516000052",
+      "source_year": 2016,
+      "iso_method": true,
+      "synonyms": [
+        "piwo",
+        "pils",
+        "pilzner",
+        "lager",
+        "beer"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 250
+        },
+        {
+          "unit_key": "can",
+          "qty": 1,
+          "grams": 500
+        }
+      ],
+      "nutrition": {
+        "kcal": 43,
+        "protein": 0.5,
+        "fat": 0,
+        "sat_fat": 0,
+        "salt": 0.01
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "168746"
+      }
+    },
+    {
+      "id": "d_piwobezalkoholowe",
+      "name": "Piwo bezalkoholowe",
+      "name_en": "Non-alcoholic beer",
+      "category": "Napoje",
+      "carbs_100g": 8.1,
+      "fiber_100g": 0,
+      "sugars_100g": 8.1,
+      "ig": 80,
+      "ig_source": "measured",
+      "default_portion": 2,
+      "barcode": null,
+      "source_doi": "10.3945/ajcn.111.031682",
+      "source_year": 2012,
+      "iso_method": false,
+      "synonyms": [
+        "piwo 0%",
+        "piwo zero",
+        "bezalkoholowe",
+        "alcohol-free beer"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "cup",
+          "qty": 1,
+          "grams": 250
+        },
+        {
+          "unit_key": "can",
+          "qty": 1,
+          "grams": 500
+        }
+      ],
+      "nutrition": {
+        "kcal": 37,
+        "protein": 0.2,
+        "fat": 0.1,
+        "sat_fat": 0,
+        "salt": 0.03
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "174863"
+      }
+    },
+    {
+      "id": "s_miodjodlowy",
+      "name": "Miód jodłowy (spadziowy)",
+      "name_en": "Fir honeydew honey",
+      "category": "Cukier, miód i dżemy",
+      "carbs_100g": 82.2,
+      "fiber_100g": 0.2,
+      "sugars_100g": 82.1,
+      "ig": 59,
+      "ig_source": "measured",
+      "default_portion": 1,
+      "barcode": null,
+      "source_doi": "10.1038/s41430-018-0160-8",
+      "source_year": 2018,
+      "iso_method": false,
+      "synonyms": [
+        "miód spadziowy jodłowy",
+        "miód ze spadzi jodłowej",
+        "fir honey"
+      ],
+      "portions": [
+        {
+          "unit_key": "gram",
+          "qty": 100,
+          "grams": 100
+        },
+        {
+          "unit_key": "tablespoon",
+          "qty": 1,
+          "grams": 20
+        }
+      ],
+      "nutrition": {
+        "kcal": 304,
+        "protein": 0.3,
+        "fat": 0,
+        "sat_fat": 0,
+        "salt": 0.01
+      },
+      "nutrition_source": {
+        "db": "USDA FDC",
+        "id": "169640",
+        "approx": true
       }
     },
     {
